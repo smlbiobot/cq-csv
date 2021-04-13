@@ -1,0 +1,9 @@
+Name,ContentType1,ContentAmount1,CostType,CostPrice,TID,ImageFileName,ImageExportName,InfoTID
+String,String,int,String,int,String,String,String,String
+GoldPack1,Gold,5000,Gems,240,TID_SHOP_GOLD_PACK_1,sc/ui_cards.sc,coins_pouch,TID_INFO_GOLD
+GoldPack2,Gold,20000,Gems,950,TID_SHOP_GOLD_PACK_2,sc/ui_cards.sc,coins_bucket,TID_INFO_GOLD
+GoldPack3,Gold,100000,Gems,4500,TID_SHOP_GOLD_PACK_3,sc/ui_cards.sc,coins_cart,TID_INFO_GOLD
+Tokens1,EnergyScroll,5,Gems,145,TID_SHOP_TOKEN_PACK_1,sc/ui_cards.sc,tokens_few,TID_INFO_ENERGY_SCROLL
+Tokens2,EnergyScroll,10,Gems,280,TID_SHOP_TOKEN_PACK_2,sc/ui_cards.sc,tokens_pile,TID_INFO_ENERGY_SCROLL
+Tokens3,EnergyScroll,30,Gems,800,TID_SHOP_TOKEN_PACK_3,sc/ui_cards.sc,tokens_pouch,TID_INFO_ENERGY_SCROLL
+ElixirLootBox1,ElixirLootBox1,1,Gems,400,TID_SHOP_ELIXIR_LOOT_BOX_1,sc/ui_cards.sc,elixir_loot_box1,TID_INFO_ELIXIR_LOOT_BOX

@@ -1,0 +1,14 @@
+Count,Multiplier,Sound,HitSound
+int,int,string,string
+1,100,,Crash_Atk_Hit_Combo_01
+2,120,Combo_20,Crash_Atk_Hit_Combo_02
+3,140,Combo_40,Crash_Atk_Hit_Combo_03
+4,160,Combo_60,Crash_Atk_Hit_Combo_04
+5,180,Combo_80,Crash_Atk_Hit_Combo_05
+6,200,Combo_100,Crash_Atk_Hit_Combo_06
+7,220,Combo_120,Crash_Atk_Hit_Combo_07
+8,240,Combo_140,Crash_Atk_Hit_Combo_08
+9,260,Combo_160,Crash_Atk_Hit_Combo_09
+10,280,Combo_180,Crash_Atk_Hit_Combo_10
+11,300,Combo_200,Crash_Atk_Hit_Combo_11
+12,300,Combo_200,Crash_Atk_Hit_Combo_12

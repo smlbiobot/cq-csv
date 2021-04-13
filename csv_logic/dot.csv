@@ -1,0 +1,10 @@
+Name,Type,DefaultTurns,Effect,ColorMul,ColorAdd,OutlineWidth,OutlineColor
+string,string,int,string,string,string,int,string
+None,NONE,0,,,,,
+Fire,FIRE,5,dot_burning,FFBF95,,,
+Freeze,FREEZE,2,dot_frozen,9595FF,,,
+Hide,HIDE,3,,3F3F3F3F,,,
+Poison,POISON,3,dot_poisoned,BFFFBF,,,
+Heal,HEAL,0,dot_heal,,,,
+Shock,SHOCK,2,spell_zap_stun,6F95FF,,,
+Rage,RAGE,0,,,,7,B2E633B2

@@ -1,0 +1,12 @@
+"Name","ExpPoints","IsVisible","TroopRequestCooldown","TroopDonationLimit","TroopDonationRefund","TroopDonationUpgrade","BadgeLevel","BannerSWF"
+"String","int","boolean","int","int","int","int","int","String"
+1,500,"true",20,5,,,0,"badge_lvl1"
+2,1200,"true",15,,,,1,"badge_lvl2"
+3,1900,"true",,,20,,2,
+4,3100,"true",,6,,,3,"badge_lvl3"
+5,3800,"true",,,,1,4,
+6,4500,"true",,,35,,5,
+7,5200,"true",10,,,,6,"badge_lvl4"
+8,5900,"true",,8,,,7,
+9,7900,"true",,,50,,8,
+10,8600,"true",,,,2,9,"badge_lvl5"

@@ -1,0 +1,140 @@
+Name,Enabled,Optional,Dependencies,NextSequence,Condition,DelayMS,TutorialTextTID,PermittedInput,Arrow,Darken,Anchor,TutorialSWF,TutorialExportName,TutorialCharacter,TutorialCharacterEquippedItem,TutorialCharacterAnimation,TutorialCharacterIdleAnimation,TutorialCharacterCamera,OptionalButtonCamera,TutorialMusic,TutorialSound
+String,Boolean,Boolean,String,String,String,int,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String
+intro_comic,TRUE,,,intro,,,,Skip,,,center,sc/intro_comic.sc,intro_comic_1,,,,,,,IntroMusic,Intro_1_frame_sfx
+,,,,,,,,Skip,,,center,sc/intro_comic.sc,intro_comic_2,,,,,,,,Intro_2_frame_sfx
+,,,,,,,,Skip,,,center,sc/intro_comic.sc,intro_comic_3,,,,,,,,Intro_3_frame_sfx
+,,,,,,,,Skip,,,center,sc/intro_comic.sc,intro_comic_4,,,,,,,,Intro_4_frame_sfx
+,,,,,,,,Skip,,,center,sc/intro_comic.sc,intro_comic_5,,,,,,,,Intro_5_frame_sfx
+,,,,,,,,,,,,,,,,,,,,,
+intro,TRUE,,,tap_barbarian,"isInLevel(1,1)",500,TID_TUTORIAL_INTRO_1,Skip,,,bottom left,sc/ui.sc,tutorial_character_large_left,MenuWizard,,wet,idle2,tutorial_default_large,,,Crash_Tut_Wiz_VO_01
+,,,,,,,TID_TUTORIAL_INTRO_2,Skip,,,bottom left,sc/ui.sc,tutorial_character_large_left,MenuPrince,,wet,,tutorial_prince_large,,,Crash_Tut_Prince_VO_03
+,,,,,,,TID_TUTORIAL_INTRO_3,Skip,,,bottom left,sc/ui.sc,tutorial_character_large_left,MenuPrince,,,,tutorial_prince_large,,,Crash_Talk_NO_VO
+,,,,,,,TID_TUTORIAL_INTRO_4,Skip,,,bottom left,sc/ui.sc,tutorial_character_large_left,MenuArcher,,wet,,tutorial_archer_large,,,Crash_Tut_Archer_VO_02
+,,,,,,,,,,,,,,,,,,,,,
+tap_barbarian,TRUE,,,tap_archer,"isInLevel(1,1)",,TID_TUTORIAL_TAP_BARBARIAN_1,Skip,,,bottom left,sc/ui.sc,tutorial_character_large_left,MenuBarbarian,,upgrade,,tutorial_barbarian_large,,,Crash_Tut_Barb_VO_01
+,,,,,,,TID_TUTORIAL_TAP_BARBARIAN_2,Tap:PuzzleUnit:Barbarian,PuzzleUnit:Barbarian,PuzzleUnit:Barbarian,top left,sc/ui.sc,tutorial_character_small_top_left,MenuArcher,,,,tutorial_archer,,,Crash_Talk_NO_VO
+,,,,,,,,,,,,,,,,,,,,,
+tap_archer,TRUE,,,tap_wizard,"isInLevel(1,1)",2500,TID_TUTORIAL_TAP_ARCHER_1,Skip,,,bottom left,sc/ui.sc,tutorial_character_large_left,MenuArcher,,,,tutorial_archer_large,,,Crash_Tut_Archer_VO_02
+,,,,,,,TID_TUTORIAL_TAP_ARCHER_2,Skip,,,top left,sc/ui.sc,tutorial_character_small_top_left,MenuArcher,,,,tutorial_archer,,,Crash_Talk_NO_VO
+,,,,,,,TID_TUTORIAL_TAP_ARCHER_3,Tap:PuzzleUnit:Archer,"PuzzleTile:Friendly:1,0","PuzzleGroupAtTile:Friendly:1,0",top left,sc/ui.sc,tutorial_character_small_top_left,MenuArcher,,,,tutorial_archer,,,Crash_Talk_NO_VO
+,,,,,,,,,,,,,,,,,,,,,
+tap_wizard,TRUE,,,,"isInLevel(1,1)",3000,TID_TUTORIAL_TAP_WIZARD_1,Skip,,,bottom left,sc/ui.sc,tutorial_character_large_left,MenuWizard,,,idle2,tutorial_default_large,,,Crash_Tut_Wiz_VO_01
+,,,,,,,TID_TUTORIAL_TAP_WIZARD_2,Skip,,,top left,sc/ui.sc,tutorial_character_small_top_left,MenuWizard,,,idle2,tutorial_wizard,,,Crash_Talk_NO_VO
+,,,,,,100,TID_TUTORIAL_TAP_WIZARD_3,Tap:PuzzleUnit:Wizard,"PuzzleTile:Friendly:1,0",PuzzleGroup:Wizard,top left,sc/ui.sc,tutorial_character_small_top_left,MenuWizard,,,idle2,tutorial_wizard,,,Crash_Talk_NO_VO
+,,,,,,,,,,,,,,,,,,,,,
+enemy_attacks,TRUE,,tap_wizard,,"isEnemyAboutToAttack() && isInLevel(1,1)",100,TID_TUTORIAL_ENEMY_ATTACKS_1,Skip,,,top left,sc/ui.sc,tutorial_character_small_top_left,MenuArcher,,,,tutorial_archer,,,Crash_Tut_Archer_VO_02
+,,,,,,,TID_TUTORIAL_ENEMY_ATTACKS_2,Skip,,TurnCounters,top left,sc/ui.sc,tutorial_character_small_top_left,MenuArcher,,,,tutorial_archer,,,Crash_Talk_NO_VO
+,,,,,,,TID_TUTORIAL_ENEMY_ATTACKS_3,Skip,,,top left,sc/ui.sc,tutorial_character_small_top_left,MenuArcher,,,,tutorial_archer,,,Crash_Talk_NO_VO
+,,,,,,,,,,,,,,,,,,,,,
+reward_screen,TRUE,,,,"isInVillage() && hasPendingLoot() && getLevelStarCount(1,1) > 0",500,TID_TUTORIAL_REWARD_SCREEN_1,Skip,,,bottom left,sc/ui.sc,tutorial_character_large_left_prince,MenuPrince,,,,tutorial_prince_large,,,Crash_Tut_Prince_VO_03
+,,,,,,,TID_TUTORIAL_REWARD_SCREEN_2,Skip,,,bottom left,sc/ui.sc,tutorial_character_large_left_horse,MenuPrince,,,,tutorial_prince_large,,,Crash_Tut_Horse_VO_01
+,,,,,,,TID_TUTORIAL_REWARD_SCREEN_3,Skip,,,bottom left,sc/ui.sc,tutorial_character_large_left_prince,MenuPrince,,,,tutorial_prince_large,,,Crash_Talk_NO_VO
+,,,,,,,,,,,,,,,,,,,,,
+explain_summary,TRUE,TRUE,reward_screen,,isRewardScreenShowingSummary() && getTotalStarsGained() < 10,,TID_TUTORIAL_EXPLAIN_SUMMARY_1,Skip,,,bottom left,sc/ui.sc,tutorial_character_small_bottom_left,MenuPrince,,,,tutorial_prince,tutorial_optional_prince,,Crash_Tut_Prince_VO_03
+,,,,,,,TID_TUTORIAL_EXPLAIN_SUMMARY_2,Skip,,SummaryItems,bottom left,sc/ui.sc,tutorial_character_small_bottom_left,MenuPrince,,,,tutorial_prince,,,Crash_Talk_NO_VO
+,,,,,,,,,,,,,,,,,,,,,
+board_unfilled,TRUE,,,,!hasPuzzleEnded && !hasFullBoard() && isPlayerTurn(),1000,TID_TUTORIAL_ALL_RESERVES_EMPTY_1,Skip,,EmptyUnitButtons,top left,sc/ui.sc,tutorial_character_small_top_left,MenuArcher,,,,tutorial_archer,,,Crash_Tut_Archer_VO_02
+,,,,,,,TID_TUTORIAL_ALL_RESERVES_EMPTY_2,Skip,,EmptyUnitButtons,top left,sc/ui.sc,tutorial_character_small_top_left,MenuArcher,,,,tutorial_archer,,,Crash_Talk_NO_VO
+,,,,,,,TID_TUTORIAL_ALL_RESERVES_EMPTY_3,Skip,,EmptyUnitButtons,top left,sc/ui.sc,tutorial_character_small_top_left,MenuArcher,,,,tutorial_archer,,,Crash_Talk_NO_VO
+,,,,,,,,,,,,,,,,,,,,,
+use_spells,TRUE,,,,isInPuzzle && hasSpell(Fireball),,TID_TUTORIAL_SPELLS_1,Skip,,,top left,sc/ui.sc,tutorial_character_small_top_left,MenuWizard,,,idle2,tutorial_wizard,,,Crash_Tut_Wiz_VO_01
+,,,,,,,TID_TUTORIAL_SPELLS_2,Tap:SpellButton:0,SpellButton:0,SpellButton:0,top left,sc/ui.sc,tutorial_character_small_top_left,MenuWizard,,,idle2,tutorial_wizard,,,Crash_Talk_NO_VO
+,,,,,,,TID_TUTORIAL_SPELLS_3,"Tap:PuzzleTile:Enemy:1,1","PuzzleTile:Enemy:1,1",EnemyBoard,top left,sc/ui.sc,tutorial_character_small_top_left,MenuWizard,,,idle2,tutorial_wizard,,,Crash_Talk_NO_VO
+,,,,,,1000,TID_TUTORIAL_SPELLS_4,Skip,,,top left,sc/ui.sc,tutorial_character_small_top_left,MenuWizard,,,idle2,tutorial_wizard,,,Crash_Talk_NO_VO
+,,,,,,,TID_TUTORIAL_SPELLS_5,Skip,,,top left,sc/ui.sc,tutorial_character_small_top_left,MenuWizard,,,idle2,tutorial_wizard,,,Crash_Talk_NO_VO
+,,,,,,,TID_TUTORIAL_SPELLS_6,Skip,,,top left,sc/ui.sc,tutorial_character_small_top_left,MenuWizard,,,idle2,tutorial_wizard,,,Crash_Talk_NO_VO
+,,,,,,,,,,,,,,,,,,,,,
+upgrade_card,TRUE,TRUE,reward_screen,,isInVillage && !isTabSelected(1) && isBottomHUDVisible() && !isAnyTextBoxVisible && !hasPendingLoot && hasUpgradeAvailable && !hasUpgraded,,TID_TUTORIAL_UPGRADE_CARD_1,Skip,,,bottom left,sc/ui.sc,tutorial_character_large_left,MenuPrince,,,,tutorial_prince_large,tutorial_optional_prince,,Crash_Tut_Prince_VO_03
+,,,,,,,TID_TUTORIAL_UPGRADE_CARD_2,Tap:PageButton:1,PageButton:1,PageButton:1,top left,sc/ui.sc,tutorial_character_small_top_left,MenuPrince,,,,tutorial_prince,,,Crash_Talk_NO_VO
+,,,,,,500,TID_TUTORIAL_UPGRADE_CARD_3,Skip,,,bottom left,sc/ui.sc,tutorial_character_small_bottom_left,MenuPrince,,,,tutorial_prince,,,Crash_Talk_NO_VO
+,,,,,,,TID_TUTORIAL_UPGRADE_CARD_4,Tap:UpgradeableCardButton,UpgradeableCardButton,UpgradeableCardButton,bottom left,sc/ui.sc,tutorial_character_small_bottom_left,MenuPrince,,,,tutorial_prince,,,Crash_Talk_NO_VO
+,,,,,,500,TID_TUTORIAL_UPGRADE_CARD_5,Skip,,,top left,sc/ui.sc,tutorial_character_small_top_left,MenuPrince,,,,tutorial_prince,,,Crash_Talk_NO_VO
+,,,,,,,TID_TUTORIAL_UPGRADE_CARD_6,Tap:InstanceName:button_upgrade,InstanceName:button_upgrade,InstanceName:button_upgrade,top left,sc/ui.sc,tutorial_character_small_top_left,MenuPrince,,,,tutorial_prince,,,Crash_Talk_NO_VO
+,,,,,,1000,TID_TUTORIAL_UPGRADE_CARD_7,Skip,,,bottom left,sc/ui.sc,tutorial_character_large_left,MenuPrince,,,,tutorial_prince_large,,,Crash_Talk_NO_VO
+,,,,,,,TID_TUTORIAL_UPGRADE_CARD_8,Skip,,,bottom left,sc/ui.sc,tutorial_character_large_left,MenuPrince,,,,tutorial_prince_large,,,Crash_Talk_NO_VO
+,,,,,,,TID_TUTORIAL_UPGRADE_CARD_9,Skip,,,bottom left,sc/ui.sc,tutorial_character_large_left,MenuPrince,,,,tutorial_prince_large,,,Crash_Talk_NO_VO
+,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,
+next_battle,TRUE,,reward_screen,,isInVillage() && !hasPendingLoot(),0,TID_TUTORIAL_NEXT_BATTLE_1,Skip,,,bottom left,sc/ui.sc,tutorial_character_large_left,MenuWizard,,,idle2,tutorial_default_large,,,Crash_Tut_Wiz_VO_01
+,,,,,,,TID_TUTORIAL_NEXT_BATTLE_2,Skip,,,bottom left,sc/ui.sc,tutorial_character_large_left,MenuWizard,,,idle2,tutorial_default_large,,,Crash_Talk_NO_VO
+,,,,,,,TID_TUTORIAL_NEXT_BATTLE_3,Skip,,,bottom left,sc/ui.sc,tutorial_character_large_left,MenuArcher,,,,tutorial_archer_large,,,Crash_Tut_Archer_VO_02
+,,,,,,,TID_TUTORIAL_NEXT_BATTLE_4,Tap:MapNodeButton:1,MapNodeButton:1,,top left,sc/ui.sc,tutorial_character_small_top_left,MenuArcher,,,,tutorial_archer,,,Crash_Talk_NO_VO
+,,,,,,,TID_TUTORIAL_NEXT_BATTLE_5,Tap:LevelSelectionMenuItem:2,LevelSelectionMenuItem:2,,top left,sc/ui.sc,tutorial_character_small_top_left,MenuArcher,,,,tutorial_archer,,,Crash_Talk_NO_VO
+,,,,,,,TID_TUTORIAL_NEXT_BATTLE_6,Tap:InstanceName:button_play,InstanceName:button_play,,top left,sc/ui.sc,tutorial_character_small_top_left,MenuArcher,,,,tutorial_archer,,,Crash_Talk_NO_VO
+,,,,,,,,,,,,,,,,,,,,,
+hold,TRUE,,,,"isInLevel(1,2) && getHeldCount() < 7",1000,TID_TUTORIAL_HOLD_1,Skip,,,bottom left,sc/ui.sc,tutorial_character_small_bottom_left,MenuWizard,,,idle2,tutorial_wizard,,,Crash_Tut_Wiz_VO_01
+,,,,,,,TID_TUTORIAL_HOLD_2,"Hold:PuzzleTile:Friendly:1,1","PuzzleTile:Friendly:1,1","PuzzleTile:Friendly:1,1",bottom left,sc/ui.sc,tutorial_character_small_bottom_left,MenuWizard,,,idle2,tutorial_wizard,,,Crash_Talk_NO_VO
+,,,,,,,TID_TUTORIAL_HOLD_3,Skip,,,bottom left,sc/ui.sc,tutorial_character_small_bottom_left,MenuWizard,,,idle2,tutorial_wizard,,,Crash_Talk_NO_VO
+,,,,,,,,,,,,,,,,,,,,,
+reminder_hold,TRUE,,hold,,"isInLevel(2,2) && getHeldCount() < 9",1000,TID_TUTORIAL_REMINDER_HOLD_1,Skip,,,bottom left,sc/ui.sc,tutorial_character_small_bottom_left,MenuWizard,,,idle2,tutorial_wizard,,,Crash_Tut_Wiz_VO_01
+,,,,,,,TID_TUTORIAL_REMINDER_HOLD_2,"Hold:PuzzleTile:Friendly:1,1","PuzzleTile:Friendly:1,1","PuzzleTile:Friendly:1,1",bottom left,sc/ui.sc,tutorial_character_small_bottom_left,MenuWizard,,,idle2,tutorial_wizard,,,Crash_Talk_NO_VO
+,,,,,,,TID_TUTORIAL_REMINDER_HOLD_3,Skip,,,bottom left,sc/ui.sc,tutorial_character_small_bottom_left,MenuWizard,,,idle2,tutorial_wizard,,,Crash_Talk_NO_VO
+,,,,,,,,,,,,,,,,,,,,,
+node_reward,TRUE,TRUE,,,isInVillage() && isMapPageVisible()&& !hasPendingLoot() && hasUnclaimedNodeReward(),,TID_TUTORIAL_NODE_REWARD_1,Skip,,UnclaimedNodeReward,bottom left,sc/ui.sc,tutorial_character_large_left,MenuPrince,,,,tutorial_prince_large,tutorial_optional_prince,,Crash_Tut_Prince_VO_03
+,,,,,,,TID_TUTORIAL_NODE_REWARD_2,Tap:UnclaimedNodeReward,UnclaimedNodeReward,UnclaimedNodeReward,top left,sc/ui.sc,tutorial_character_small_top_left,MenuPrince,,,,tutorial_prince,,,Crash_Talk_NO_VO
+,,,,,,,,,,,,,,,,,,,,,
+introduce_troops,TRUE,TRUE,,,unitOnBoard(Barbarian) && unitOnBoard(Prince) && unitOnBoard(Archer) && unitOnBoard(Wizard),,TID_TUTORIAL_INTRODUCE_TROOPS_1,Skip,,,bottom left,sc/ui.sc,tutorial_character_large_left_prince,MenuPrince,,bow,,tutorial_prince_large,tutorial_optional_prince,,Crash_Tut_Prince_VO_03
+,,,,,,,TID_TUTORIAL_INTRODUCE_TROOPS_2,Skip,,,bottom left,sc/ui.sc,tutorial_character_large_left_prince,MenuPrince,,,,tutorial_prince_large,,,Crash_Talk_NO_VO
+,,,,,,,TID_TUTORIAL_INTRODUCE_TROOPS_3,Skip,,,bottom left,sc/ui.sc,tutorial_character_large_left_prince,MenuPrince,,,,tutorial_prince_large,,,Crash_Talk_NO_VO
+,,,,,,,TID_TUTORIAL_INTRODUCE_TROOPS_4,Skip,,,bottom left,sc/ui.sc,tutorial_character_large_left,MenuArcher,,,,tutorial_archer_large,,,Crash_Tut_Archer_VO_02
+,,,,,,,TID_TUTORIAL_INTRODUCE_TROOPS_5,Skip,,,bottom left,sc/ui.sc,tutorial_character_large_left,MenuArcher,,,,tutorial_archer_large,,,Crash_Talk_NO_VO
+,,,,,,,TID_TUTORIAL_INTRODUCE_TROOPS_6,Skip,,,bottom left,sc/ui.sc,tutorial_character_large_left_prince,MenuPrince,,,,tutorial_prince_large,,,Crash_Talk_NO_VO
+,,,,,,,TID_TUTORIAL_INTRODUCE_TROOPS_7,Skip,,PuzzleUnit:Barbarian,top left,sc/ui.sc,tutorial_character_small_top_left,MenuPrince,,,,tutorial_prince,,,Crash_Talk_NO_VO
+,,,,,,,TID_TUTORIAL_INTRODUCE_TROOPS_8,Skip,,PuzzleUnit:Barbarian,top left,sc/ui.sc,tutorial_character_small_top_left,MenuPrince,,,,tutorial_prince,,,Crash_Talk_NO_VO
+,,,,,,,TID_TUTORIAL_INTRODUCE_TROOPS_9,Skip,,PuzzleUnit:Prince,top left,sc/ui.sc,tutorial_character_small_top_left,MenuPrince,,,,tutorial_prince,,,Crash_Talk_NO_VO
+,,,,,,,TID_TUTORIAL_INTRODUCE_TROOPS_10,Skip,,PuzzleUnit:Prince,top left,sc/ui.sc,tutorial_character_small_top_left,MenuPrince,,,,tutorial_prince,,,Crash_Talk_NO_VO
+,,,,,,,TID_TUTORIAL_INTRODUCE_TROOPS_11,Skip,,PuzzleUnit:Prince,top left,sc/ui.sc,tutorial_character_small_top_left,MenuPrince,,,,tutorial_horse,,,Crash_Tut_Horse_VO_01
+,,,,,,,TID_TUTORIAL_INTRODUCE_TROOPS_12,Skip,,,top left,sc/ui.sc,tutorial_character_small_top_left,MenuPrince,,,,tutorial_prince,,,Crash_Talk_NO_VO
+,,,,,,,TID_TUTORIAL_INTRODUCE_TROOPS_13,Skip,,PuzzleUnit:Archer,top left,sc/ui.sc,tutorial_character_small_top_left,MenuPrince,,,,tutorial_prince,,,Crash_Talk_NO_VO
+,,,,,,,TID_TUTORIAL_INTRODUCE_TROOPS_14,Skip,,PuzzleUnit:Archer,top left,sc/ui.sc,tutorial_character_small_top_left,MenuPrince,,,,tutorial_prince,,,Crash_Talk_NO_VO
+,,,,,,,TID_TUTORIAL_INTRODUCE_TROOPS_15,Skip,,PuzzleUnit:Wizard,top left,sc/ui.sc,tutorial_character_small_top_left,MenuPrince,,,,tutorial_prince,,,Crash_Talk_NO_VO
+,,,,,,,TID_TUTORIAL_INTRODUCE_TROOPS_16,Skip,,PuzzleUnit:Wizard,top left,sc/ui.sc,tutorial_character_small_top_left,MenuPrince,,,,tutorial_prince,,,Crash_Talk_NO_VO
+,,,,,,,TID_TUTORIAL_INTRODUCE_TROOPS_17,Skip,,,bottom left,sc/ui.sc,tutorial_character_large_left_prince,MenuPrince,,,,tutorial_prince_large,,,Crash_Talk_NO_VO
+,,,,,,,TID_TUTORIAL_INTRODUCE_TROOPS_18,Skip,,,bottom left,sc/ui.sc,tutorial_character_large_left_prince,MenuPrince,,,,tutorial_prince_large,,,Crash_Talk_NO_VO
+,,,,,,,TID_TUTORIAL_INTRODUCE_TROOPS_19,Skip,,,bottom left,sc/ui.sc,tutorial_character_large_left_horse,MenuPrince,,,,tutorial_prince_large,,,Crash_Tut_Horse_VO_01
+,,,,,,,,,,,,,,,,,,,,,
+next_level_unlocked,TRUE,TRUE,reward_screen,,nextLevelUnlockedWithoutMaxStars(),,TID_TUTORIAL_NEXT_LEVEL_UNLOCKED_1,Skip,,,bottom left,sc/ui.sc,tutorial_character_small_bottom_left,MenuArcher,,,,tutorial_archer,tutorial_optional_archer,,Crash_Tut_Archer_VO_02
+,,,,,,,TID_TUTORIAL_NEXT_LEVEL_UNLOCKED_2,Skip,,,bottom left,sc/ui.sc,tutorial_character_small_bottom_left,MenuArcher,,,,tutorial_archer,,,Crash_Talk_NO_VO
+,,,,,,,TID_TUTORIAL_NEXT_LEVEL_UNLOCKED_3,Skip,,,bottom left,sc/ui.sc,tutorial_character_small_bottom_left,MenuArcher,,,,tutorial_archer,,,Crash_Talk_NO_VO
+,,,,,,,,,,,,,,,,,,,,,
+item_power_indicator,TRUE,TRUE,reward_screen,,isItemPowerIndicatorVisible(),,TID_TUTORIAL_ITEM_ACTIVATION_1,Skip,,,top left,sc/ui.sc,tutorial_character_small_top_left,MenuWizard,,,idle2,tutorial_wizard,tutorial_optional_wizard,,Crash_Tut_Wiz_VO_01
+,,,,,,,TID_TUTORIAL_ITEM_ACTIVATION_2,Skip,,,top left,sc/ui.sc,tutorial_character_small_top_left,MenuWizard,,,idle2,tutorial_wizard,,,Crash_Talk_NO_VO
+,,,,,,,TID_TUTORIAL_ITEM_ACTIVATION_3,Skip,,,top left,sc/ui.sc,tutorial_character_small_top_left,MenuWizard,,,idle2,tutorial_wizard,,,
+,,,,,,,TID_TUTORIAL_ITEM_ACTIVATION_4,Skip,,ItemPowerIndicators,top left,sc/ui.sc,tutorial_character_small_top_left,MenuWizard,,,idle2,tutorial_wizard,,,
+,,,,,,,,,,,,,,,,,,,,,
+only_spell_left,TRUE,TRUE,reward_screen,,isInPuzzle() && !hasPuzzleEnded() && hasAnySpell() && hasEmptyBoard(),,TID_TUTORIAL_ONLY_SPELL_LEFT_1,Skip,,,top left,sc/ui.sc,tutorial_character_small_top_left,MenuWizard,,,idle2,tutorial_wizard,tutorial_optional_wizard,,Crash_Tut_Wiz_VO_01
+,,,,,,,TID_TUTORIAL_ONLY_SPELL_LEFT_2,Skip,,,top left,sc/ui.sc,tutorial_character_small_top_left,MenuWizard,,,idle2,tutorial_wizard,,,Crash_Talk_NO_VO
+,,,,,,,,,,,,,,,,,,,,,
+goblin_king,TRUE,,use_spells,,"isInLevel(2,4)",,TID_TUTORIAL_GOBLIN_KING_1,Skip,,,bottom left,sc/ui.sc,tutorial_character_large_left_prince,MenuPrince,,bow,,tutorial_prince_large,,,Crash_Tut_Prince_VO_03
+,,,,,,,TID_TUTORIAL_GOBLIN_KING_2,Skip,,,bottom right,sc/ui.sc,tutorial_character_large_right,GoblinBoss,,,,tutorial_goblin_boss_large,,,Crash_Talk_NO_VO
+,,,,,,,TID_TUTORIAL_GOBLIN_KING_3,Skip,,,bottom right,sc/ui.sc,tutorial_character_large_right,GoblinBoss,,,,tutorial_goblin_boss_large,,,Crash_Talk_NO_VO
+,,,,,,,TID_TUTORIAL_GOBLIN_KING_4,Skip,,,bottom right,sc/ui.sc,tutorial_character_large_right,GoblinBoss,,,,tutorial_goblin_boss_large,,,Crash_Talk_NO_VO
+,,,,,,,TID_TUTORIAL_GOBLIN_KING_5,Skip,,,bottom left,sc/ui.sc,tutorial_character_large_left_prince,MenuPrince,,item equipped,,tutorial_prince_large,,,Crash_Tut_Prince_VO_03
+,,,,,,,TID_TUTORIAL_GOBLIN_KING_6,Skip,,,bottom left,sc/ui.sc,tutorial_character_large_left_horse,MenuPrince,,,,tutorial_prince_large,,,Crash_Tut_Horse_VO_01
+,,,,,,,,,,,,,,,,,,,,,
+wasted_fireballs,TRUE,TRUE,use_spells,,isInPuzzle && hasSpell(Fireball) && getWastedFireballCount() >= 3,,TID_TUTORIAL_WASTED_FIREBALL_1,Skip,,,top left,sc/ui.sc,tutorial_character_small_top_left,MenuWizard,,,idle2,tutorial_wizard,tutorial_optional_wizard,,Crash_Tut_Wiz_VO_01
+,,,,,,,TID_TUTORIAL_WASTED_FIREBALL_2,Skip,,,top left,sc/ui.sc,tutorial_character_small_top_left,MenuWizard,,,idle2,tutorial_wizard,,,Crash_Talk_NO_VO
+,,,,,,,,,,,,,,,,,,,,,
+challenge_mode,TRUE,TRUE,,,isEndlessModeUnlocked && isTabSelected(3) && !isPlayerNameEmpty,,TID_TUTORIAL_CHALLENGE_MODE_1,Skip,,,bottom left,sc/ui.sc,tutorial_character_large_left_prince,MenuPrince,,bow,,tutorial_prince_large,tutorial_optional_prince,,Crash_Tut_Prince_VO_03
+,,,,,,,TID_TUTORIAL_CHALLENGE_MODE_2,Skip,,,bottom left,sc/ui.sc,tutorial_character_large_left_prince,MenuPrince,,,,tutorial_prince_large,,,Crash_Talk_NO_VO
+,,,,,,,TID_TUTORIAL_CHALLENGE_MODE_3,Skip,,,bottom left,sc/ui.sc,tutorial_character_large_left_prince,MenuPrince,,,,tutorial_prince_large,,,Crash_Talk_NO_VO
+,,,,,,,TID_TUTORIAL_CHALLENGE_MODE_4,Skip,,,bottom left,sc/ui.sc,tutorial_character_large_left_prince,MenuPrince,,,,tutorial_prince_large,,,Crash_Talk_NO_VO
+,,,,,,,TID_TUTORIAL_CHALLENGE_MODE_5,Skip,,,bottom left,sc/ui.sc,tutorial_character_large_left_prince,MenuPrince,,,,tutorial_prince_large,,,Crash_Talk_NO_VO
+,,,,,,,,,,,,,,,,,,,,,
+goblin_king_2,TRUE,,goblin_king,,"isInLevel(9,5)",,TID_TUTORIAL_GOBLIN_KING_2_1,Skip,,,bottom left,sc/ui.sc,tutorial_character_large_left,MenuArcher,,wet,,tutorial_archer_large,,,Crash_Tut_Archer_VO_02
+,,,,,,,TID_TUTORIAL_GOBLIN_KING_2_2,Skip,,,bottom right,sc/ui.sc,tutorial_character_large_right,GoblinBoss,,,,tutorial_goblin_boss_large,,,Crash_Talk_NO_VO
+,,,,,,,TID_TUTORIAL_GOBLIN_KING_2_3,Skip,,,bottom right,sc/ui.sc,tutorial_character_large_right,GoblinBoss,,,,tutorial_goblin_boss_large,,,Crash_Talk_NO_VO
+,,,,,,,TID_TUTORIAL_GOBLIN_KING_2_4,Skip,,,bottom left,sc/ui.sc,tutorial_character_large_left,MenuArcher,,,,tutorial_archer_large,,,Crash_Talk_NO_VO
+,,,,,,,,,,,,,,,,,,,,,
+lava_golem_1,TRUE,,goblin_king_2,,"isInLevel(12,5)",,TID_TUTORIAL_LAVA_GOLEM_1_1,Skip,,,bottom left,sc/ui.sc,tutorial_character_large_left,MenuArcher,,,,tutorial_archer_large,,,Crash_Tut_Archer_VO_02
+,,,,,,,TID_TUTORIAL_LAVA_GOLEM_1_2,Skip,,,bottom left,sc/ui.sc,tutorial_character_large_left,MenuWizard,,,idle2,tutorial_default_large,,,Crash_Tut_Wiz_VO_01
+,,,,,,,,,,,,,,,,,,,,,
+lava_golem_2,TRUE,,lava_golem_1,,"isInLevel(18,5)",,TID_TUTORIAL_LAVA_GOLEM_2_1,Skip,,,bottom left,sc/ui.sc,tutorial_character_large_left,MenuArcher,,,,tutorial_archer_large,,,Crash_Tut_Archer_VO_02
+,,,,,,,TID_TUTORIAL_LAVA_GOLEM_2_2,Skip,,,bottom left,sc/ui.sc,tutorial_character_large_left_prince,MenuPrince,,item equipped,,tutorial_prince_large,,,Crash_Tut_Prince_VO_03
+,,,,,,,,,,,,,,,,,,,,,
+papa_dragon_1,TRUE,,lava_golem_2,,"isInLevel(29,7)",,TID_TUTORIAL_PAPA_DRAGON_1_1,Skip,,,bottom left,sc/ui.sc,tutorial_character_large_left_prince,MenuPrince,,item equipped,,tutorial_prince_large,,,Crash_Tut_Prince_VO_03
+,,,,,,,TID_TUTORIAL_PAPA_DRAGON_1_2,Skip,,,bottom left,sc/ui.sc,tutorial_character_large_left_horse,MenuPrince,,,,tutorial_prince_large,,,Crash_Tut_Horse_VO_01
+,,,,,,,TID_TUTORIAL_PAPA_DRAGON_1_3,Skip,,,bottom left,sc/ui.sc,tutorial_character_large_left,MenuArcher,,,,tutorial_archer_large,,,Crash_Tut_Archer_VO_02
+,,,,,,,,,,,,,,,,,,,,,
+papa_dragon_2,TRUE,,papa_dragon_1,,"isInLevel(36,7)",,TID_TUTORIAL_PAPA_DRAGON_2_1,Skip,,,bottom left,sc/ui.sc,tutorial_character_large_left,MenuWizard,,,idle2,tutorial_default_large,,,Crash_Tut_Wiz_VO_01
+,,,,,,,TID_TUTORIAL_PAPA_DRAGON_2_2,Skip,,,bottom left,sc/ui.sc,tutorial_character_large_left,MenuArcher,,,,tutorial_archer_large,,,Crash_Tut_Archer_VO_02

@@ -1,0 +1,11 @@
+name,StartCount,CapCountW4,CapCountW3,CapCountW2,CapCountW1,DropEffect,TID,Disabled
+string,int,int,int,int,int,String,String,boolean
+BarbarianCap,10,2,1,1,1,GainCrate,TID_CARD_BARBARIAN,
+ArcherCap,10,2,1,1,1,GainCrate,TID_CARD_ARCHER,
+GiantCap,4,1,1,1,1,GainCrate,TID_CARD_GIANT,
+WizardCap,10,2,1,1,1,GainCrate,TID_CARD_WIZARD,
+PrinceCap,8,1,1,1,1,GainCrate,TID_CARD_PRINCE,
+PekkaCap,3,,1,,1,GainCrate,TID_CARD_PEKKA,
+BomberCap,8,1,1,1,1,GainCrate,TID_CARD_BOMBER,
+GoblinCap,12,2,2,1,1,GainCrate,TID_CARD_GOBLIN,
+BabyDragonCap,8,1,1,1,1,GainCrate,TID_CARD_BABY_DRAGON,

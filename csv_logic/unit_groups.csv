@@ -1,0 +1,12 @@
+name,isWall,isBuilding,isStorage,isAir,isSpawner,isTacticsDraft,isTroopsDraft,isSpellsDraft
+string,boolean,boolean,boolean,boolean,boolean,boolean,boolean,boolean
+ground,,,,,,,,
+air,,,,TRUE,,,,
+wall,TRUE,TRUE,,,,,,
+frontwall,TRUE,TRUE,,,,,,
+defense,,TRUE,,,,,,
+storage,,TRUE,TRUE,,,,,
+spawner,,TRUE,,,TRUE,,,
+tacticsdraft,,TRUE,,,,TRUE,,
+troopsdraft,,TRUE,,,,,TRUE,
+spellsdraft,,TRUE,,,,,,TRUE

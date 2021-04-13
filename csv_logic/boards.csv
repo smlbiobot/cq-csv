@@ -1,0 +1,4 @@
+"name","isSimulation"
+"string","int"
+"default","0"
+"simulated","1"

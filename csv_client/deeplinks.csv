@@ -1,0 +1,13 @@
+Name,ParameterType,ParameterName,Description,Public
+String,String,String,String,Boolean
+OpenShop,,,Open the shop,FALSE
+OpenShopBillingPackage,BillingPackage,package,Open the shop and show the billing package,FALSE
+OpenShopOfferBundle,Bundle,bundle,Open the shop and show bundle,FALSE
+OpenShopBuilding,Building,building,Open the shop and show the building,FALSE
+OpenWeb,String,url,Open default browser and go to address,FALSE
+,,url2,If address cannot be opened i.e. clashroyale:// then the following urls are tested.,
+,,url3,,
+Share,String,message,Open native share dialogue with message,FALSE
+OpenPlayerProfile,String,tag,Open player profile,FALSE
+OpenClanProfile,String,tag,Open a clans profile,FALSE
+OpenEvents,int,eventId,Open event calendar and highlight event,FALSE

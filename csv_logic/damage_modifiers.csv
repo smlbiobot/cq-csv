@@ -1,0 +1,4 @@
+Attacker,Target,Damage
+string,string,int
+Goblin,GoldStorage,200
+Bomber,Wall,200

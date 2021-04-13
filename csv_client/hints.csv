@@ -1,0 +1,3 @@
+Name,TID,TownHallLevelMin,TownHallLevelMax,iOSTID,AndroidTID
+String,String,int,int,String,String
+welcome message,TID_HINT_WELCOME,1,,,

@@ -1,0 +1,9 @@
+"Name","FileName","Volume","Loop","PlayCount","FadeOutTimeSec","DurationSec"
+"String","String","int","boolean","int","int","int"
+"HomeMusic","music/crash_ingame_01.ogg",40,"true",,,
+"PuzzleMusic1","music/crash_ingame_02.ogg",40,"true",,,
+"PuzzleMusic2","music/crash_ingame_03.ogg",40,"true",,,
+"PuzzleMusic3","music/crash_ingame_04.ogg",40,"true",,,
+"BossMusic","music/crash_boss_music_01.ogg",40,"true",,,
+"RewardMusic","music/reward_loop_01.ogg",40,"true",,,
+"IntroMusic","music/crash_intro_music_01.ogg",40,"true",,,

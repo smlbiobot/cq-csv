@@ -1,0 +1,10 @@
+Name,TID,InfoTID,IconSWF,IconExportName,PremiumCurrency,ShownAsTime,StartingAmount,ResourceCap,GainedSound,DropEffect,IsInChronos,GemCost100,ImageFileName,ImageExportName,Disabled
+String,String,String,String,String,Boolean,Boolean,int,int,String,String,boolean,int,String,String,boolean
+Gems,TID_GEMS,TID_INFO_GEMS,sc/ui.sc,icon_gem,TRUE,,150,,,,TRUE,,sc/ui_cards.sc,gems_fistful,
+Gold,TID_GOLD,TID_INFO_GOLD,sc/ui.sc,icon_coin,,,,1000000,,GainCoins,TRUE,5,sc/ui_cards.sc,coins_fistful,
+Stars,,TID_INFO_STARS,sc/ui.sc,icon_star,,,,,,,TRUE,,sc/ui_cards.sc,item_bg_common,
+PuzzleEnergy,TID_PUZZLE_ENERGY,TID_INFO_PUZZLE_ENERGY,sc/ui.sc,icon_sword,,,12,12,,,TRUE,,sc/ui_cards.sc,item_bg_common,
+InfinitePuzzleEnergyTime,TID_INFINITE_PUZZLE_ENERGY_TIME,,sc/ui.sc,icon_sword,,TRUE,,,,,TRUE,,sc/ui_cards.sc,item_bg_common,
+ExperiencePoints,,,sc/ui.sc,icon_sword,,,,,,,TRUE,,sc/ui_cards.sc,item_bg_common,
+EnergyScroll,TID_ENERGY_SCROLL,TID_INFO_ENERGY_SCROLL,sc/ui.sc,icon_battle_token,,,,60,,,TRUE,3000,sc/ui_cards.sc,tokens_single,
+ChallengeToken,TID_CHALLENGE_TOKEN,TID_INFO_CHALLENGE_TOKEN,sc/ui.sc,icon_challenge_token,,,3,10,,,TRUE,,,,

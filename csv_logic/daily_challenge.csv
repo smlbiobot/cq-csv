@@ -1,0 +1,11 @@
+DefenseValue,MinDefenses,MaxDefenses,NewDefense1,NewDefense2,NewDefense3,NewDefense4,NewDefense5,NewDefense6,NewDefense7,NewDefense8,NewTroop1,NewTroop2,NewTroop3,NewTroop4,NewTroop5,NewTroop6,NewTroop7,NewSpell1,NewSpell2,NewSpell3,NewSpell4,NewSpell5,StageWinReward,LeagueEndChest,DropGold,MinDropElixir,MaxDropElixir,DropEnergy,DropEnergyScroll,DropCap,DropCommon,DropRare,DropEpic,DropLegendary
+int,int,int,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,String,int,int,int,int,int,int,int,int,int,int
+0,5,10,GoldStorage,Cannon,ArcherTower,WizardTower,Xbow,Mortar,,,Barbarian,Archer,Giant,Wizard,Prince,Goblin,,Fireball,Rocket,Step,Charge,,ChallengeChest1,LeagueChest1,100,500,1200,,,2,4,0,0,0
+1100,6,10,Inferno,,,,,,,,,,,,,,,Retreat,,,,,ChallengeChest1,LeagueChest1,120,550,1250,,,3,4,1,0,0
+1300,6,11,,,,,,,,,Pekka,,,,,,,,,,,,ChallengeChest1,LeagueChest1,140,600,1300,,,3,5,1,0,0
+1600,7,11,Tesla,,,,,,,,,,,,,,,Zap,,,,,ChallengeChest2,LeagueChest1,160,650,1350,,,4,5,1,0,0
+1900,7,12,,,,,,,,,,,,,,,,Rush,,,,,ChallengeChest2,LeagueChest1,180,700,1400,,,4,5,2,0,0
+2200,7,12,Furnace,,,,,,,,,,,,,,,,,,,,ChallengeChest3,LeagueChest2,200,750,1450,,,4,6,2,1,0
+2500,7,12,,,,,,,,,,,,,,,,Log,,,,,ChallengeChest3,LeagueChest2,220,800,1500,,,5,6,2,1,0
+2800,7,12,,,,,,,,,Bomber,,,,,,,,,,,,ChallengeChest3,LeagueChest2,240,850,1550,,,5,7,3,1,0
+3200,7,12,,,,,,,,,BabyDragon,,,,,,,,,,,,ChallengeChest3,LeagueChest2,260,900,1600,,,5,7,3,1,1

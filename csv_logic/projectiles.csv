@@ -1,0 +1,13 @@
+Name,meshFileName,scale,angle,pitch,speed,acceleration,arcHeight,effect,hitEffect,createEffect,isPiercing,animationFileName,animationSpeed,tiltWithPitch,secondaryProjectile,ignoreDirection
+String,String,int,int,int,int,int,int,String,String,String,boolean,String,int,boolean,String,boolean
+arrow,sc3d/xbow_arrow.glb,30,90,90,20,0,1,,,,false,,100,,,
+cannon_shoot,sc3d/cannonball.glb,10,0,0,12,0,1,,,,false,,100,,,
+fireball,,70,0,0,10,0,1,wizard_lv1_projectile,wizard_lv1_explosion,,false,,100,,smallfireball,
+bomb,sc3d/bomber_lv1_projectile.glb,70,90,90,10,0,1,bomber_lv1_projectile,wizard_lv1_explosion,,false,sc3d/bomber_lv1_projectile_anim_fly.glb,100,,,true
+invisible,,100,0,0,100,0,0,,,,false,,100,,,
+mortar,,20,0,0,4,0,3,mortar_lv1_projectile,wizard_lv1_explosion,,false,,100,,,
+explosion,,100,0,0,100,0,0,Explosion,,,false,,100,,,
+log,sc3d/spell_log.glb,10,90,90,10,0,2,spell_log_trail,spell_log_hit,,true,sc3d/spell_log_anim_attack.glb,100,,,
+rocket,sc3d/spell_rocket.glb,9,90,90,10,0,3,spell_rocket_trail,Explosion,,false,sc3d/spell_rocket_anim_attack.glb,100,true,,
+smallfireball,,50,0,0,5,0,1,wizard_lv1_projectile,ExplosionSmall,,false,,100,,,
+lavaball,,70,0,0,10,0,1,wizard_lv1_projectile,boss_lava_atk2_hit,boss_lava_atk2_shoot,false,,100,,smallfireball,

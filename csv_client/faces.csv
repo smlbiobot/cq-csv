@@ -1,0 +1,2 @@
+Name,Texture,NormalMap,MaterialTexture,Expression,FaceShiftU,FaceShiftV,EyeLidShiftU,EyeLidShiftV,EyeBallMinU,EyeBallMinV,EyeBallMaxU,EyeBallMaxV,EyeMaxAngleH,EyeMaxAngleV,BlinkMinMs,BlinkMaxMs,NEyeFrames
+String,String,String,String,int,int,int,int,int,int,int,int,int,int,int,int,int,int

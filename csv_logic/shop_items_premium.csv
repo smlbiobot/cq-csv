@@ -1,0 +1,8 @@
+Name,TID,ExistsApple,ExistsAndroid,Diamonds,USD,isOfferPackage,IconSWF,IconExportName,ContentType1,ContentAmount1,ImageFileName,ImageExportName,InfoTID
+String,String,boolean,boolean,int,int,boolean,String,String,String,int,String,String,String
+com.supercell.crash.gempack1,TID_SHOP_GEM_PACK_1,TRUE,TRUE,80,99,,sc/ui.sc,icon_gem,,,sc/ui_cards.sc,gems_fistful,TID_INFO_GEMS
+com.supercell.crash.gempack2,TID_SHOP_GEM_PACK_2,TRUE,TRUE,500,499,,sc/ui.sc,icon_gem,,,sc/ui_cards.sc,gems_pouch,TID_INFO_GEMS
+com.supercell.crash.gempack3,TID_SHOP_GEM_PACK_3,TRUE,TRUE,1200,999,,sc/ui.sc,icon_gem,,,sc/ui_cards.sc,gems_bucket,TID_INFO_GEMS
+com.supercell.crash.gempack4,TID_SHOP_GEM_PACK_4,TRUE,TRUE,2500,1999,,sc/ui.sc,icon_gem,,,sc/ui_cards.sc,gems_barrel,TID_INFO_GEMS
+com.supercell.crash.gempack5,TID_SHOP_GEM_PACK_5,TRUE,TRUE,6500,4999,,sc/ui.sc,icon_gem,,,sc/ui_cards.sc,gems_cart,TID_INFO_GEMS
+com.supercell.crash.gempack6,TID_SHOP_GEM_PACK_6,TRUE,TRUE,14000,9999,,sc/ui.sc,icon_gem,,,sc/ui_cards.sc,gems_mountain,TID_INFO_GEMS

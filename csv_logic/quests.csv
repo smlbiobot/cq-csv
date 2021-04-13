@@ -1,0 +1,11 @@
+Name,IconSWF,IconExportName,UnlockLevel,SingleStage,TargetReward,SpreadReward,RewardChest,RewardGold,TargetUnits,Reinforcements,CombatValueMultiplier
+string,string,string,int,boolean,boolean,boolean,string,int,string,string,int
+WagonSpearGoblins,sc/ui.sc,map_icon_quest,1,FALSE,TRUE,,QuestChest1,,Wagon,SpearGoblinEnemy,15
+,,,,,,,,,,SpearGoblinEnemy,
+,,,,,,,,,,SpearGoblinEnemy,
+,,,,,,,,,,SpearGoblinEnemy,
+BarrelsBombers,sc/ui.sc,map_icon_quest,39,FALSE,,TRUE,,1000,Barrel,BomberEnemy,15
+,,,,,,,,,Barrel,BomberEnemy,
+,,,,,,,,,Barrel,BomberEnemy,
+,,,,,,,,,Barrel,BomberEnemy,
+,,,,,,,,,,BomberEnemy,

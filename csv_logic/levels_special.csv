@@ -1,0 +1,9 @@
+Level,NodeAndName,Stage,Width,Height,combatValue,MaxDefenses,Wall,Defense1,Defense2,Defense3,Defense4,Defense5,Defense6,Boss,Troop1,Troop2,Troop3,Troop4,Spell1,Spell2,RandomSeed,WinReward,QuestDefense,QuestReward,QuestReinforcement,QuestReinforcementCount,DropGold,MinDropElixir,MaxDropElixir,DropEnergy,DropEnergyScroll,DropCap,DropCommon,DropRare,DropEpic,DropLegendary,Background
+String,String,int,int,int,int,int,int,String,String,String,String,String,String,String,String,String,String,String,String,String,int,String,String,String,String,int,int,int,int,int,int,int,int,int,int,int,String
+EndlessMode,,1,4,4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,GreenRegion
+Tutorial,,1,3,3,220,7,,Cannon,GoldStorage,Cannon,,,,,Archer,Barbarian,Wizard,Prince,,,1,WinChestStart1,,,,,150,1000,1000,0,0,0,0,0,0,0,GreenRegion
+,,2,3,3,170,8,1,Cannon,GoldStorage,Cannon,,,,,,,,,,,,WinChestStart1,,,,,150,1000,1000,,,0,0,0,0,0,
+,,3,3,3,170,7,1,Cannon,WizardTower,,,,,,,,,,,,,WinChestStart2,,,,,150,1000,1000,,,0,0,0,0,0,
+EditorGreen,,1,4,4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,GreenRegion
+EditorLava,,1,4,4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,LavaRegion
+EditorSpell,,1,4,4,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,SpellRegion

@@ -1,0 +1,979 @@
+tid,EN
+string,string
+TID_LOADING,Loading
+TID_UPDATING_CONTENT,Updating
+TID_SHUTDOWN_STARTED,A short maintenance break is coming up in a few minutes. The game can't be played during the break.
+TID_NAME_CHANGED_SUCCESS,Your account has a new name
+TID_SETTINGS,Settings
+TID_DAY,DAY
+TID_AMOUNT_OUT_OF_MAX,<amount> / <max>
+TID_LEVEL,Level
+TID_LEVEL_NUMBER,Level <num>
+TID_HIT_POINTS,Health <total>
+TID_HIT_POINTS_CURRENT,Health <current>/<total>
+TID_DAMAGE,Damage <damage>
+TID_DAMAGE_X_N,Damage <damage> x <count>
+TID_QUEST_TARGET,Target of a Quest. Destroy for extra reward!
+TID_ATTACK_COUNTER_IMMEDIATE,Will attack after your turn!
+TID_ATTACK_COUNTER,Will attack in <number> turns
+TID_MOVES,MOVES
+TID_TRIES,Tries:
+TID_POPUP_EXIT_GAME_TITLE,Exit game
+TID_POPUP_EXIT_GAME_TEXT,Are you sure you want to exit the game?
+TID_BUTTON_YES,Yes
+TID_BUTTON_NO,No
+TID_BUTTON_OKAY,Okay
+TID_BUTTON_CANCEL,Cancel
+TID_BUTTON_RETRY,Retry
+TID_BUTTON_REFILL,Refill
+TID_BUTTON_CONFIRM,Confirm
+TID_BUTTON_CONNECT_ONLINE,Connect
+TID_BUTTON_RANK,Rank:
+TID_ERROR_POP_UP_WRONG_CLIENT_VERSION_TITLE,Update Game
+TID_ERROR_POP_UP_WRONG_CLIENT_VERSION,Click button to update the game
+TID_ERROR_POP_UP_WRONG_CLIENT_VERSION_BUTTON,Update
+TID_ERROR_POP_UP_OUT_OF_SYNC_TITLE,OUT OF SYNC
+TID_ERROR_POP_UP_OUT_OF_SYNC,Something went wrong and the game is out of sync. Chillax!
+TID_ERROR_POP_UP_OUT_OF_SYNC_BUTTON,Reload
+TID_NO_PUZZLE_ENERGY,Out of Energy...
+TID_NEXT_ENERGY_TIMER,Next life in:
+TID_COST_FREE,FREE
+TID_EXTRA_MOVES,Buy extra moves for:
+TID_LEVEL_FAILED_NO_MOVES,No possible moves left!
+TID_LEVEL_FAILED_TITLE,Puzzle Failed!
+TID_LEVEL_COMPLETE,Well played!
+TID_LEVEL_COMPLETE_TITLE,Puzzle Complete!
+TID_LEVEL_START_TITLE,Let's Go!
+TID_LEVEL_START,Goal:
+TID_LEADERBOARD,Leaderboard
+TID_NAME_INSTRUCTIONS,Pick a name you like. This is how other players will see you!
+TID_GIVE_NAME_TITLE,My name is...
+TID_BUTTON_DONE,Done
+TID_NAME_TOO_SHORT,Name is too short!
+TID_INVALID_NAME,Invalid name! Please try another one.
+TID_ENTER_NAME_TITLE,Enter Name
+TID_UNLOCK_LEVEL,Unlock after Puzzle Level
+TID_UNLOCK_LEVEL_WITH_NUMBER,Unlock after Puzzle Level <LEVEL>
+TID_GEMS,Gems
+TID_PUZZLE_ENERGY,Energy
+TID_ENERGY_FULL,Full
+TID_INFINITE_PUZZLE_ENERGY_TIME,Infinite Energy
+TID_TIME_DAYS,d
+TID_TIME_HOURS,h
+TID_TIME_MINS,m
+TID_TIME_SECS,s
+TID_QUIT_PUZZLE,Leave Battle?
+TID_QUIT_PUZZLE_TEXT,Leave this battle and return to main menu?\n\nYou’ll keep the loot gained so far.
+TID_BUTTON_PLAY_ON,Cancel
+TID_BUTTON_QUIT,Leave
+TID_INFO_POP_UP_TOS_PP_TITLE,Important Notice
+TID_INFO_POP_UP_TOS_PP_NOTE,"Clash Quest is free to play, but you can speed up progress with in-app purchases (you can disable this in your device settings). Tap Okay to accept our <TOS>Terms</TOS> and <PP>Privacy Policy</PP>."
+TID_INFO_POP_UP_TOS_PP_NOTE_ANDROID,"Clash Quest is free to play, but you can speed up progress with in-app purchases (to disable this, set up password protection in your Google Play Store app settings). Tap Okay to accept our <TOS>Terms</TOS> and <PP>Privacy Policy</PP>."
+TID_INFO_POP_UP_TOS_PP_BUTTON1,Okay
+TID_INFO_POP_UP_TOS_PP_BUTTON2,Terms of Service
+TID_INFO_POP_UP_IAP_NOTE_TITLE,Important Notice
+TID_INFO_POP_UP_IAP_NOTE,"Clash Quest is free to play, but you can speed up progress with in-app purchases (you can disable this in your device settings). Tap Okay to accept our Terms and Privacy Policy."
+TID_INFO_POP_UP_IAP_NOTE_BUTTON,Okay
+TID_CONTACT_US_WELCOME_TEXT,Hello!
+TID_SELFHELP_UNAVAILABLE,Help and Support is unavailable right now. Please try later.
+TID_MUSIC_ON,Music ON
+TID_MUSIC_OFF,Music OFF
+TID_SOUNDS_ON,Sounds ON
+TID_SOUNDS_OFF,Sounds OFF
+TID_ON,ON
+TID_OFF,OFF
+TID_SOUNDS,Sound Effects
+TID_MUSIC,Music
+TID_BUTTON_CONNECT,Connect
+TID_WAITING_FOR_PENDING_TRANSACTION,Waiting for pending transaction
+TID_HUD_ENERGY,<VALUE><cAABED0>/<MAXVALUE></c>
+,
+TID_RATE_APP_TITLE,Rate Clash Quest
+TID_RATE_APP_MESSAGE,Please rate or review Clash Quest on App Store to give us valuable feedback!
+TID_RATE_APP_MESSAGE_ANDROID,Please rate or review Clash Quest on Play Store to give us valuable feedback!
+TID_BUTTON_RATE_APP_LATER,Later
+TID_BUTTON_RATE_APP_REVIEW,Review
+TID_BUTTON_RATE_APP_NEVER,Never
+,
+TID_BIND_TO_NEW_GAMECENTER_ACCOUNT_TITLE,New Game Center login
+TID_BIND_TO_NEW_GAMECENTER_ACCOUNT,Do you want to save your current game on this Game Center account?
+TID_GOOGLE_SERVICE_BOUND_TO_OTHER_ACCOUNT_TITLE,Google Account Alert
+TID_BOUND_TO_OTHER_ACCOUNT_LOAD_VILLAGE_TITLE,Load game?
+TID_BUTTON_VILLAGE_LOAD,Load
+TID_GAMECENTER_BOUND_TO_OTHER_ACCOUNT_TITLE,Game Center Alert
+TID_GOOGLE_SERVICE_BOUND_TO_OTHER_ACCOUNT,Do you want to load another progress with <number> Star Chests? Warning: progress in the current game will be lost.
+TID_GAMECENTER_BOUND_TO_OTHER_ACCOUNT,Do you want to load another progress with <number> Star Chests? Warning: Progress in the current game will be lost.
+TID_CANNOT_SWITCH_TO_ACCOUNT_WITHOUT_SUPERCELL_ID,Do you want to load another progress with <number> Star Chests? Load it by logging in with your Supercell ID.
+TID_GOOGLE_ACCOUNT_ALREADY_BOUND,Google Play Sign-In failed! Your Google account is already associated with another game account.
+,
+TID_CREDITS_BUTTON,Credits
+TID_ABOUT,Credits\n\n<names>\n\nClash Quest <version>\nCopyright 2021 Supercell Ltd. All Rights Reserved.\nUS Patent Pending\nAll use of this software is subject to Terms and Conditions and Privacy Policy at www.supercell.com
+TID_NOT_ENOUGH_PUZZLE_ENERGY,Not enough Energy to play puzzle
+TID_NOT_ENOUGH_FARM_ENERGY_TITLE,Out of Farm Energy
+,
+TID_HINT_WELCOME,"Loading Barbarians, Archers, Wizards etc."
+TID_POPUP_NOT_ENOUGH_COINS_TITLE,Not enough gold
+TID_POPUP_NOT_ENOUGH_COINS_TEXT,Use Gems to buy missing gold?
+TID_POPUP_NOT_ENOUGH_GEMS_TITLE,Not enough Gems
+TID_POPUP_NOT_ENOUGH_GEMS_TEXT,More Gems are needed.\nGo to the Gem Shop?
+TID_SPEEDUP_TITLE,Complete now?
+TID_SPEEDUP_COST,Speed up cost:
+TID_UNLOCKS,UNLOCKED!
+TID_SEASON_COMPLETE_TITLE,Season complete
+TID_SEASON_COMPLETE_TEXT,Congrats for completing a season!
+TID_SEASON_COMPLETE_GOODS_SOLD_TEXT,GOLD FROM MARKET
+TID_SELL_BUTTON,SELL
+,
+TID_DEFAULT_SEARCH_TEXT,INSERT NAME HERE
+TID_NH_SEARCH,Search for a clan!
+TID_NH_CREATE,Create New
+TID_MEMBERS,Members
+TID_TAB_BUTTON_ALLIANCE_CHAT,Chat
+TID_TAB_BUTTON_ALLIANCE_SEARCH,Search
+TID_TAB_BUTTON_ALLIANCE_MEMBERS,Members
+TID_NH_MEMBERS_ONLINE,Members online:
+TID_NH_CREATE_TITLE,Create Clan
+TID_NH_NAME,Clan Name
+TID_NH_DESCRIPTION,Clan Description
+TID_NH_CREATE_BUTTON,Create Clan!
+TID_LEAVE,Leave
+TID_JOIN,Join
+TID_ALLIANCE_LEFT,Left clan!
+TID_ALLIANCE_CREATED,Clan created!
+TID_ALLIANCE_JOINED,Joined clan!
+TID_DEFAULT_ALLIANCE_NAME,INSERT NAME HERE
+TID_DEFAULT_ALLIANCE_DESCRIPTION,INSERT DESCRIPTION HERE
+TID_TOO_SHORT_ALLIANCE_NAME,Clan name too short
+TID_ALLIANCE_ROLE_MEMBER,Member
+TID_ALLIANCE_ROLE_LEADER,Leader
+TID_ALLIANCE_ROLE_ADMIN,Admin
+TID_ALLIANCE_ROLE_CO_LEADER,Co-Leader
+TID_PROMOTE,Promote
+TID_DEMOTE,Demote
+TID_KICK,Kick
+,
+TID_STREAM_SENDER_YOU,You
+TID_STREAM_ENTRY_AGE,<time> ago
+TID_STREAM_EVENT_JOINED,<name> joined
+TID_STREAM_EVENT_LEFT,<name> left
+TID_STREAM_EVENT_KICKED,<name> was kicked from clan
+TID_STREAM_EVENT_PROMOTED,<name> promoted
+TID_STREAM_EVENT_DEMOTED,<name> demoted
+TID_STREAM_EVENT_ACCEPTED,<name> accepted to clan
+TID_ALLIANCE_LEAVE_CONFIRMATION_TITLE,Leave clan?
+TID_ALLIANCE_LEAVE_CONFIRMATION,Do you really want to leave this clan?
+,
+TID_TAP_OPEN,Tap to open...
+TID_TAP_TO_CONTINUE,Tap to continue…
+TID_SHOP,Shop
+TID_FRIENDS,Friends
+TID_EVENTS,Challenges
+TID_MAIL,Mail
+TID_ANIMAL_BUTTERFLY1,Butterfly
+TID_ANIMAL_LOBSTER,Lobby
+TID_CHECKING_NAME,Registering Name...
+TID_CHECKING_NAME_FAILED,Name not allowed.
+TID_NO_NAME_YET,Buddy
+TID_BUTTON_PURCHASE,Buy
+TID_BUTTON_PURCHASE_FREE,Get
+TID_SHOP_CLOSED,"Sorry, closed!"
+TID_SHOP_NEW,NEW!
+TID_SHOP_UNLOCKED_AT,Unlock by collecting <cf3f2c8><STARS> Star Chests</c>
+TID_SHOP_HEADER_OFFERS,Special Offers
+TID_SHOP_HEADER_OFFERS_COLOR,cc4141
+TID_SHOP_HEADER_DAILY_DEALS,Daily Deals
+TID_SHOP_HEADER_DAILY_DEALS_COLOR,cc4141
+TID_SHOP_HEADER_DAILY_DEALS_TIME,<cF3F2C8>New deals in</c> <TIME>
+TID_SHOP_HEADER_GEMS,Gems
+TID_SHOP_HEADER_GEMS_COLOR,cc4141
+TID_SHOP_HEADER_GOLD,Gold
+TID_SHOP_HEADER_GOLD_COLOR,cc4141
+TID_SHOP_HEADER_BATTLE_TOKENS,Quest Tokens
+TID_SHOP_HEADER_BATTLE_TOKENS_COLOR,cc4141
+TID_SHOP_HEADER_ELIXIR_LOOT_BOXES,Elixir Crate
+TID_SHOP_HEADER_ELIXIR_LOOT_BOXES_COLOR,cc4141
+TID_SHOP_DEAL_GOLD,<number> Gold
+TID_SHOP_DEAL_QUEST_TOKEN,One Quest Token
+TID_SHOP_DEAL_QUEST_TOKENS,<number> Quest Tokens
+TID_SHOP_DEAL_GEM,One Gem
+TID_SHOP_DEAL_GEMS,<number> Gems
+TID_SHOP_DEAL_ELIXIR,One Elixir
+TID_SHOP_DEAL_ELIXIRS,<number> Elixir
+TID_SHOP_DEAL_CAP,One more <name>
+TID_SHOP_DEAL_CAPS,<number> <name>
+TID_SHOP_GEM_PACK_1,Pile of Gems
+TID_SHOP_GEM_PACK_2,Bag of Gems
+TID_SHOP_GEM_PACK_3,Bucket of Gems
+TID_SHOP_GEM_PACK_4,Tub of Gems
+TID_SHOP_GEM_PACK_5,Boat of Gems
+TID_SHOP_GEM_PACK_6,Wave of Gems
+TID_SHOP_GOLD_PACK_1,<number> Gold
+TID_SHOP_GOLD_PACK_2,<number> Gold
+TID_SHOP_GOLD_PACK_3,<number> Gold
+TID_SHOP_TOKEN_PACK_1,<number> Quest Tokens
+TID_SHOP_TOKEN_PACK_2,<number> Quest Tokens
+TID_SHOP_TOKEN_PACK_3,<number> Quest Tokens
+TID_SHOP_ELIXIR_LOOT_BOX_1,Elixir Crate
+TID_INFO_ELIXIR_LOOT_BOX,"Gain 20 elixir, shared between 4 different troops!"
+TID_SHOP_CONFIRM_POPUP_MAX_ELIXIR,Maximum elixir is already reached.\n\nConfirm purchase on alternative reward of <GOLD_AMOUNT> Gold instead?
+TID_SHOP_UNABLE_TO_BUY_ELIXIR_CRATE_FLOATER,Unable to buy Elixir Crate
+TID_SHOP_MAX_RESOURCE_CAP_FLOATER,Resource cap reached
+TID_SHOP_FOR,For <NAME>s
+,
+TID_AREA_REWARDS,Rewards
+TID_ADD_MOVES_AND_CONTINUE,Continue with <num> move moves?
+TID_BUTTON_CONTINUE,Continue
+TID_BUTTON_GIVE_UP,Give up
+TID_OUT_OF_MOVES_TITLE,Out of Moves!
+TID_LOSE_STREAK_TITLE,Are you sure?
+TID_WIN_STREAK_BONUS_LOSE,You will lose your win streak!
+TID_LEVEL_GOALS,Goals:
+TID_BATTLE_BUTTON,Play
+TID_SELECT_BOOSTERS,Select Boosters:
+TID_ERROR_POP_UP_CONNECTION_FAILED_TITLE,Connection error
+TID_ERROR_POP_UP_CONNECTION_FAILED,Unable to connect with the server. Check your internet connection and try again.
+TID_ERROR_POP_UP_CONNECTION_FAILED_BUTTON,Try again
+TID_ERROR_POP_UP_AUTO_DISCONNECTED_TITLE,Connection error
+TID_ERROR_POP_UP_AUTO_DISCONNECTED,Unable to connect with the server. Check your internet connection and try again.
+TID_ERROR_POP_UP_AUTO_DISCONNECTED_BUTTON,Try again
+TID_ERROR_POP_UP_CONNECTION_LOST_TITLE,Connection lost
+TID_ERROR_POP_UP_CONNECTION_LOST,You have lost connection with the server. Check your internet connection and try again.
+TID_ERROR_POP_UP_CONNECTION_LOST_BUTTON,Try again
+TID_ERROR_POP_UP_SERVER_MAINTENANCE_TITLE,Maintenance
+TID_ERROR_POP_UP_SERVER_MAINTENANCE,"Sorry, the servers are under maintenance. Please try again later."
+TID_ERROR_POP_UP_SERVER_MAINTENANCE_ESTIMATED_SOON,"Sorry, the servers are under maintenance. Please try again later."
+TID_ERROR_POP_UP_SERVER_MAINTENANCE_ESTIMATED_MINUTES,"Sorry, the servers are under maintenance. Please try again later."
+TID_ERROR_POP_UP_SERVER_MAINTENANCE_ESTIMATED_HOUR,"Sorry, the servers are under maintenance. Please try again later."
+TID_ERROR_POP_UP_SERVER_MAINTENANCE_ESTIMATED_HOUR_AND_HALF,"Sorry, the servers are under maintenance. Please try again later."
+TID_ERROR_POP_UP_SERVER_MAINTENANCE_ESTIMATED_TWO_HOURS,"Sorry, the servers are under maintenance. Please try again later."
+TID_ERROR_POP_UP_SERVER_MAINTENANCE_ESTIMATED_LONG,"Sorry, the servers are under maintenance. Please try again later."
+TID_MAINTENANCE_ESTIMATED_UNKNOWN,Please try again later.
+TID_MAINTENANCE_ESTIMATED_SOON,Please try again later.
+TID_MAINTENANCE_ESTIMATED_MINUTES,Please try again later.
+TID_MAINTENANCE_ESTIMATED_HOUR,Please try again later.
+TID_MAINTENANCE_ESTIMATED_HOUR_AND_HALF,Please try again later.
+TID_MAINTENANCE_ESTIMATED_TWO_HOURS,Please try again later.
+TID_MAINTENANCE_ESTIMATED_LONG,Please try again later.
+TID_ERROR_POP_UP_SERVER_MAINTENANCE_BUTTON,Try again
+,
+TID_PUZZLE_REWARDS,You got:
+TID_PUZZLE_REWARDS_CHESTS_REMAINING,<cF3F2C8>Chests remaining: </c><VALUE>
+TID_UNLOCKED,You found:
+TID_NO_REWARDS,You didn't gain any loot this time.\n\nBetter luck next time!
+TID_BUTTON_OK,OK!
+,
+TID_BUTTON_CONNECTED,Connected
+TID_BUTTON_DISCONNECTED,Disconnected
+TID_SUPERCELL_ID,Supercell ID
+TID_SUPERCELL_ID_DESCRIPTION,Connect to Supercell ID to safeguard your progress and see the Friends Leaderboard.
+TID_CONNECT_SUPERCELL_ID_BUTTON,Connect
+TID_SOCIAL_BUTTONS_LABEL,Check these out!
+TID_GOOGLE_PLAY,Google Play
+TID_BUTTON_SIGN_IN,Sign-In
+TID_BUTTON_SIGNED_IN,Signed-In
+TID_PLAYER_ID,Player ID: <HIGH>-<LOW>
+TID_BUTTON_PLAY_WITHOUT_SCID,Play without Supercell ID
+TID_BUTTON_SCID_LOGIN,Log in with Supercell ID
+TID_POPUP_OFFLINE_TITLE,No connection
+TID_POPUP_OFFLINE_TEXT,Go online and try again!
+TID_OK_OFFLINE_POPUP,Continue
+TID_SETTINGS_BUTTON_HELP,Help & Support
+TID_SETTINGS_BUTTON_PRIVACY,Privacy
+TID_SETTINGS_BUTTON_PARENTS,Parent's Guide
+TID_SETTINGS_BUTTON_TERMS,Terms of Service
+TID_NATIVE_DIALOG_LOGIN_WITH_NON_PRIMARY_ACCOUNT_TITLE,New device
+TID_NATIVE_DIALOG_LOGIN_WITH_NON_PRIMARY_ACCOUNT_MESSAGE,"Loading latest progress from server, play online to sync between devices"
+TID_NATIVE_DIALOG_LOGIN_WITH_NON_PRIMARY_ACCOUNT_BUTTON,Reload
+TID_ERROR_POP_UP_LOGIN_FAILED_TITLE,Login failed
+TID_ERROR_POP_UP_LOGIN_FAILED,Please try again later.
+TID_ERROR_POP_UP_LOGIN_FAILED_BUTTON,Try again
+TID_ERROR_POP_UP_BANNED_TITLE,You have been banned!
+TID_ERROR_POP_UP_BANNED,You have been banned temporarily
+TID_ERROR_POP_UP_BANNED_BUTTON,OK
+TID_ERROR_POP_UP_BANNED_BUTTON_CONTACT_PS,Contact Support
+TID_ERROR_POP_UP_PURCHASE_FAILED_TITLE,Purchase failed
+TID_ERROR_POP_UP_PURCHASE_FAILED,Billing server not responding. Please try again later.
+TID_ERROR_POP_UP_PURCHASE_FAILED_BUTTON,OK
+TID_NATIVE_DIALOG_VERSION_NOT_UP_TO_DATE_STORE_NOT_READY_TITLE,Updating to new version
+TID_NATIVE_DIALOG_VERSION_NOT_UP_TO_DATE_STORE_NOT_READY_MESSAGE,We are updating to a new version of Clash Quest. Please check back in a short while!
+TID_NATIVE_DIALOG_VERSION_NOT_UP_TO_DATE_STORE_NOT_READY_BUTTON,OK
+TID_ERROR_POP_UP_UNLOCK_UNAVAILABLE_TITLE,Account unlock unavailable
+TID_ERROR_POP_UP_UNLOCK_UNAVAILABLE,Account unlock is unavailable at the moment. Please try again later!
+TID_ERROR_POP_UP_UNLOCK_UNAVAILABLE_BUTTON,Try again
+TID_POPUP_CONFLICTING_ACCOUNT_TITLE,Conflicting Account
+TID_POPUP_CONFLICTING_ACCOUNT_TEXT,The account you are trying to log in with is different from the account stored locally. Switch to the current account?
+TID_BUTTON_CONFLICTING_ACCOUNT_YES,"Yes, switch to current account."
+TID_BUTTON_CONFLICTING_ACCOUNT_NO,"No, use the original account."
+TID_ERROR_POP_UP_LOGGED_FROM_ANOTHER_DEVICE_TITLE,Connection lost
+TID_ERROR_POP_UP_LOGGED_FROM_ANOTHER_DEVICE,Another device is connecting to this account
+TID_ERROR_POP_UP_LOGGED_FROM_ANOTHER_DEVICE_BUTTON,Reload
+TID_ERROR_POP_UP_UNSUPPORTED_COUNTRY_TITLE,Login failed
+TID_ERROR_POP_UP_UNSUPPORTED_COUNTRY,"Sorry, this game is not available in your country yet."
+TID_ERROR_POP_UP_UNSUPPORTED_COUNTRY_BUTTON,OK
+TID_AVATAR_MESSAGE_SENDER_PLAYER_SUPPORT,Player Support
+TID_AVATAR_MESSAGE_TEXT_GEM_REVOKE,"A refund was requested for this account and it has been approved on <refundDate>. The refund will be made to the form of payment used when the order was made.\n\nA total of <totalRevokedGems> gems have been deducted from your account, to match the value of your refund. This may result in a negative gem balance. A positive balance can be restored by making additional orders and collecting resources in-game."
+TID_AVATAR_MESSAGE_TEXT_GEM_REVOKE_PLURAL,"Refunds were requested for this account and they have been approved on <refundDate>. The refunds will be made to the form of payment used when the orders were made.\n\nA total of <totalRevokedGems> gems have been deducted from your account, to match the value of your refunds. This may result in a negative gem balance. A positive balance can be restored by making additional orders and collecting resources in-game."
+TID_SHOP_CATEGORY_PUZZLE_PASS,Puzzle Pass
+TID_SHOP_CATEGORY_CHRONOS_OFFERS,Special Offers
+TID_SHOP_CATEGORY_OFFERS,Offers
+TID_SHOP_CATEGORY_PUZZLE_ENERGY,Gem Packs
+TID_SHOP_CANNOT_PURCHASE_MORE,You have already purchased all the available offers
+TID_CANNOT_CHANGE_NAME_TIMER,You can only change your name every <TIME> hours
+,
+TID_BUTTON_ATTACK,Attack
+TID_BUTTON_ATTACK_ENDLESS,Attack
+,
+TID_REGION_1_NAME,Goblin Kingdom
+TID_REGION_2_NAME,Lava Land
+TID_REGION_3_NAME,Shock Shores
+TID_REGION_4_NAME,Elixir Springs
+,
+TID_MAP_NODE_1_NAME,Shifty Beach
+TID_MAP_NODE_2_NAME,Palmtree Bank
+TID_MAP_NODE_3_NAME,Unsafe Island
+TID_MAP_NODE_4_NAME,Armored Cay
+TID_MAP_NODE_5_NAME,Cannonball Reef
+TID_MAP_NODE_6_NAME,Totem Heights
+TID_MAP_NODE_7_NAME,Howitzer Hill
+TID_MAP_NODE_8_NAME,Fatal Point
+TID_MAP_NODE_9_NAME,Shady Shelter
+TID_MAP_NODE_10_NAME,Roaster Rock
+TID_MAP_NODE_11_NAME,Red-Hot Heights
+TID_MAP_NODE_12_NAME,Magma Bank
+TID_MAP_NODE_13_NAME,Hot Pot
+TID_MAP_NODE_14_NAME,Burnmark Mountain
+TID_MAP_NODE_15_NAME,P.E.K.K.A's Pool
+TID_MAP_NODE_16_NAME,Pointy Ridge
+TID_MAP_NODE_17_NAME,Scorching Skull
+TID_MAP_NODE_18_NAME,Bone Pickin's
+TID_MAP_NODE_19_NAME,Mount Charge
+TID_MAP_NODE_20_NAME,Reinforced Rock
+TID_MAP_NODE_21_NAME,Electro Mound
+TID_MAP_NODE_22_NAME,Cactus Hill
+TID_MAP_NODE_23_NAME,Shocker Slope
+TID_MAP_NODE_24_NAME,Point Spark
+TID_MAP_NODE_25_NAME,Tesla Cay
+TID_MAP_NODE_26_NAME,Zap Atoll
+TID_MAP_NODE_27_NAME,Ridge Savage
+TID_MAP_NODE_28_NAME,Tower Top
+TID_MAP_NODE_29_NAME,Pine Rock
+TID_MAP_NODE_30_NAME,Hoarder Hills
+TID_MAP_NODE_31_NAME,Crystal Cove
+TID_MAP_NODE_32_NAME,Viewpoint Skerry
+TID_MAP_NODE_33_NAME,Brewholm
+TID_MAP_NODE_34_NAME,Elixir Depot
+TID_MAP_NODE_35_NAME,Mount Keg
+TID_MAP_NODE_36_NAME,Glass Cutter Heap
+TID_MAP_NODE_37_NAME,Placeholder name for node 37
+TID_MAP_NODE_38_NAME,Placeholder name for node 38
+TID_MAP_NODE_39_NAME,Placeholder name for node 39
+TID_MAP_NODE_40_NAME,Placeholder name for node 40
+TID_MAP_NODE_41_NAME,Placeholder name for node 41
+TID_MAP_NODE_42_NAME,Placeholder name for node 42
+TID_MAP_NODE_43_NAME,Placeholder name for node 43
+TID_MAP_NODE_44_NAME,Placeholder name for node 44
+TID_MAP_NODE_45_NAME,Placeholder name for node 45
+TID_MAP_NODE_46_NAME,Placeholder name for node 46
+TID_MAP_NODE_47_NAME,Placeholder name for node 47
+TID_MAP_NODE_48_NAME,Placeholder name for node 48
+TID_MAP_NODE_49_NAME,Placeholder name for node 49
+TID_MAP_NODE_50_NAME,Placeholder name for node 50
+TID_MAP_NODE_51_NAME,Placeholder name for node 51
+TID_MAP_NODE_52_NAME,Placeholder name for node 52
+TID_MAP_NODE_53_NAME,Placeholder name for node 53
+TID_MAP_NODE_54_NAME,Placeholder name for node 54
+TID_MAP_NODE_55_NAME,Placeholder name for node 55
+TID_MAP_NODE_56_NAME,Placeholder name for node 56
+TID_MAP_NODE_57_NAME,Placeholder name for node 57
+TID_MAP_NODE_58_NAME,Placeholder name for node 58
+TID_MAP_NODE_59_NAME,Placeholder name for node 59
+TID_MAP_NODE_60_NAME,Placeholder name for node 60
+TID_MAP_NODE_61_NAME,Placeholder name for node 61
+TID_MAP_NODE_62_NAME,Placeholder name for node 62
+TID_MAP_NODE_63_NAME,Placeholder name for node 63
+TID_MAP_NODE_64_NAME,Placeholder name for node 64
+TID_MAP_NODE_65_NAME,Placeholder name for node 65
+TID_MAP_NODE_66_NAME,Placeholder name for node 66
+TID_MAP_NODE_67_NAME,Placeholder name for node 67
+TID_MAP_NODE_68_NAME,Placeholder name for node 68
+TID_MAP_NODE_69_NAME,Placeholder name for node 69
+,
+TID_TAB_QUEST,Quest
+TID_TAB_SQUAD,Squad
+TID_TAB_DAILY_CHALLENGE,League
+TID_TAB_SOCIAL,Social
+TID_TAB_SOCIAL_OFFLINE,Go online to access Social
+TID_TAB_SHOP,Shop
+TID_TAB_SHOP_OFFLINE,Go online to access Shop
+,
+TID_WARNING_LEVEL_NOT_REACHED,You must beat earlier levels before advancing here!
+TID_WARNING_NODE_NOT_REACHED,You must beat earlier Islands before advancing here!
+TID_WARNING_NODE_REQUIREMENTS_NOT_MET,You must collect earlier unlocks before advancing here!
+TID_WARNING_NODE_NOT_CLEARED,You must get ALL <c833939>Star Chests</c> from the Island before you can get this reward!\n\n<c833939>Star Chests</c> collected:\n<current>/<total>
+TID_WARNING_NODE_REWARD_ALREADY_CLAIMED,You've already claimed this reward!
+TID_WARNING_NODE_NOT_ENOUGH_STARS,"You must collect more <c833939>Star Chests</c> before advancing here!\n\nYou need <needed> to advance, but you only have <total>."
+,
+TID_CARD_BARBARIAN,Barbarian
+TID_CARD_BARBARIAN_DESCRIPTION,"Barbarian isn't picky when it comes to choosing targets – he's happy to strike the closest enemy, whatever that may be."
+TID_CARD_ARCHER,Archer
+TID_CARD_ARCHER_DESCRIPTION,"Archer shoots an arrow to the closest target, even over the walls."
+TID_CARD_GIANT,Giant
+TID_CARD_GIANT_DESCRIPTION,"Giant attacks defense buildings first. When those are taken care of, he heads towards whatever is left on the battlefield. As a big guy, he can soak up a lot of damage."
+TID_CARD_WIZARD,Wizard
+TID_CARD_WIZARD_DESCRIPTION,"Wizard casts a fireball at the closest enemy. If there happens to be other enemies nearby, they get their share of the fiery blast too."
+TID_CARD_SPEAR_GOBLIN,Spear Goblin
+TID_CARD_SPEAR_GOBLIN_DESCRIPTION,Spear Goblin description goes here.
+TID_CARD_PRINCE,Prince
+TID_CARD_PRINCE_DESCRIPTION,"Prince charges straight ahead, dealing a good deal of damage to the enemy foolish enough to be standing on his way... if any actually do stand on his way."
+TID_CARD_PEKKA,P.E.K.K.A.
+TID_CARD_PEKKA_DESCRIPTION,"P.E.K.K.A. deals a great amount of damage to the closest enemy. Due to her heavy armoring, she can also withstand a lot of enemy fire."
+TID_CARD_BOMBER,Bomber
+TID_CARD_BOMBER_DESCRIPTION,"Bomber chucks a bomb to the enemy side of the battlefield, dealing extra damage to walls. Due to monotonous training, he can only hit the spot exactly parallel to where he's standing."
+TID_CARD_GOBLIN,Goblin
+TID_CARD_GOBLIN_DESCRIPTION,"Goblin is attracted to gold, first and foremost, and deals double damage to gold storages. When there are no gold storages left, he attacks whatever enemy is the closest."
+TID_CARD_BABY_DRAGON,Baby Dragon
+TID_CARD_BABY_DRAGON_DESCRIPTION,Baby Dragon flies above the battlefield and attacks straight across the battlefield - breathing fire on all enemies along the way.
+TID_CARD_FIREBALL,Fireball
+TID_CARD_FIREBALL_DESCRIPTION,A ball of fire that deals damage to a 3x3 area.
+TID_CARD_ZAP,Zap
+TID_CARD_ZAP_DESCRIPTION,Zap deals damage and stuns enemies for few turns.
+TID_CARD_LOG,Log
+TID_CARD_LOG_DESCRIPTION,"Log rolls through the battlefield, dealing damage to enemies along its path."
+TID_CARD_ROCKET,Rocket
+TID_CARD_ROCKET_DESCRIPTION,Rocket deals very high damage to a single target.
+TID_CARD_RUSH,Rush
+TID_CARD_RUSH_DESCRIPTION,"Attack with a single troop with double damage, without spending your turn!"
+TID_CARD_RETREAT,Retreat
+TID_CARD_RETREAT_DESCRIPTION,Pull a troop back to your reserves. The troop gets fully healed before rejoining the battle!
+TID_CARD_STEP,Swap
+TID_CARD_STEP_DESCRIPTION,"Swap the placing of two adjacent troops, or move a unit to an empty square next to it."
+TID_CARD_CHARGE,Charge
+TID_CARD_CHARGE_DESCRIPTION,"Attack with all troops of the same type, regardless of their location on the battlefield."
+,
+TID_CARD_MAX_LEVEL,MAX LEVEL
+TID_CARD_LEVEL_COLOR,<caaaaaa>Level</c> <level>
+TID_STAGE_CLEARED_HEADER,Stage <number>/<total>
+TID_STAGE_CLEARED_HEADER_ENDLESS,Stage <number>
+TID_STAGE_CLEARED_FOOTER,CLEARED!
+TID_LEVEL_END_HEADER,YOU CLEARED
+TID_LEVEL_END_HEADER_COMPLETED,LEVEL
+TID_LEVEL_END_HEADER_BOSS_VICTORY,YOU DEFEATED THE
+TID_LEVEL_END_HEADER_BOSS_DEFEAT,YOU LOST TO THE
+TID_LEVEL_END_MAIN,<number>/<total> stages
+TID_LEVEL_END_MAIN_SINGULAR,<number>/1 stage
+TID_LEVEL_END_MAIN_COMPLETED,COMPLETED!
+TID_LEVEL_END_MAIN_ENDLESS,<number> stages
+TID_LEVEL_END_MAIN_ENDLESS_SINGULAR,1 stage
+TID_LEVEL_END_ENDLESS_DEFENSES,<number> defenses
+TID_LEVEL_END_ENDLESS_DEFENSES_SINGULAR,1 defense
+TID_CHEST_GAINED,
+TID_NEXT_LEVEL_UNLOCKED,Next level unlocked!
+TID_NEXT_NODE_UNLOCKED,Island unlocked!
+TID_NEXT_NODES_UNLOCKED,Islands unlocked!
+TID_NEW_HIGHSCORE,New highscore!
+,
+TID_BOSS_NAME_LAVAGOLEM,Lava Golem
+TID_BOSS_NAME_PAPADRAGON,Papa Dragon
+TID_BOSS_NAME_GOBLIN,Goblin King
+,
+TID_GOLD,Gold
+TID_ELIXIR,Elixir
+,
+TID_NOT_ENOUGH_ELIXIR,You need more <cFD35ED>Elixir</c> for this upgrade.\n\nGet more <cFD35ED>Elixir</c> by clearing levels.
+TID_NOT_ENOUGH_GOLD,You need more <cF8A203>Gold</c> for this upgrade.\n\nGet more <cF8A203>Gold</c> by destroying enemy defenses.
+TID_NOT_ENOUGH_ENERGY_SCROLL,You don't have enough Quest Tokens!
+,
+TID_POPUP_NOT_ENOUGH_ENERGY_TITLE,Out of Energy!
+TID_POPUP_NOT_ENOUGH_ENERGY_TEXT,Do you want to use a Quest Token to play?\n\nYou have <number> Quest Tokens.
+TID_POPUP_NOT_ENOUGH_ENERGY_BUTTON,Use Token
+TID_POPUP_NOT_ENOUGH_ENERGY_AND_BATTLE_TOKENS_TITLE,Out of Energy!
+TID_POPUP_NOT_ENOUGH_ENERGY_AND_BATTLE_TOKENS_TEXT,You're out of Energy and Quest Tokens.\n\nDo you want to buy a Quest Token to play?
+TID_POPUP_CHALLENGE_FREE_TRIES_USED_TITLE,Free try used!
+TID_POPUP_CHALLENGE_FREE_TRIES_USED_TEXT,You have one free try per day. Do you want to use a League Token to play?\n\nYou have <number> League Tokens.
+TID_POPUP_USE_CHALLENGE_BUTTON,Use Token
+TID_POPUP_CHALLENGE_FREE_TRIES_AND_CHALLENGE_TOKENS_USED_TEXT,You're out of Free Tries and League Tokens.
+TID_POPUP_SHOP_UNLOCKED_TITLE,Shop unlocked!
+TID_POPUP_SHOP_UNLOCKED_TEXT,Good progress on your Quest!\n\nYou can now check what's available in the Shop.
+TID_POPUP_ENDLESS_MODE_UNLOCKED_TITLE,League unlocked!
+TID_POPUP_ENDLESS_MODE_UNLOCKED_TEXT,Good progress on your Quest!\n\nYou can now access the League and compete in the Leaderboards!
+,
+TID_ATTACK,Attack
+TID_AREA_ATTACK,Area Attack
+TID_HEALTH,Health
+TID_STUN,Stun turns
+TID_BUTTON_UPGRADE,Upgrade
+TID_ITEMS,Items
+TID_STATS,Stats
+TID_MAX_CAP,/<VALUE>
+TID_BUTTON_EQUIP,Equip
+TID_BUTTON_CLOSE,Close
+TID_EQUIPPED,Equipped
+TID_EQUIPPED_UPPER_CASE,EQUIPPED
+TID_ALREADY_EQUIPPED,Already equipped!
+TID_ITEM_UNAVAILABLE,You haven't found this item yet!
+TID_ITEM_REQUIREMENT,x combo required.
+TID_ITEM_REQUIREMENT_ACTIVE,Attack with <NUMBER> or more units to activate the item power.
+TID_ITEM_REQUIREMENT_PASSIVE,Build a group of <NUMBER> or more units on your board to activate the item power.
+TID_BADGE_NEW,NEW
+TID_CAP_EXPLANATION_SINGULAR,"You have 1 <NAME>, out of maximum of <MAX>."
+TID_CAP_EXPLANATION,"You have <NUMBER> <NAME>s, out of maximum of <MAX>."
+TID_QUEST_DESCRIPTION_BARREL,"A squad of Bombers has rigged the base with explosive barrels. There's a nice reward for taking care of them! But beware, the rest will flee after the fight!"
+TID_QUEST_DESCRIPTION_WAGON,Spear Goblins are escorting a treasure wagon through the base. Now would be a good time to relieve them of the burden!
+TID_BUTTON_TEMP_UNIT,Temp Unit
+TID_CARD_NOT_YET_UNLOCKED,"You haven't found this unit yet, but you can use it in today's League battles!"
+TID_BUTTON_MAXED,Maxed Out!
+,
+TID_HEADER_YOUR_ARMY,Your Army
+TID_HEADER_SPELLS_AND_TACTICS,Spells & Tactics
+TID_HEADER_REWARDS,Rewards
+TID_HEADER_REINFORCEMENTS,Refill units
+TID_HEADER_SELECT_REINFORCEMENTS,Select a refill
+TID_HEADER_SELECT_REFILL_SPELL,Select a refill
+TID_HEADER_SELECT_REFILL_UNIT,Select a refill
+TID_HEADER_SELECT_REFILL_TACTIC,Select a refill
+TID_CHEST_ALREADY_OPENED,You’ve already looted this Chest.
+TID_CHEST_AVAILABLE,Get this Chest by clearing stage <number>.
+TID_HEADER_CHALLENGE,Day <DAY>/<SEASON>
+TID_HEADER_LEAGUE,League
+TID_LABEL_DAY,Day
+,
+TID_RARITY_TEXT_COLOR_1,<cD87F48>
+TID_RARITY_TEXT_COLOR_2,<c4E68A5>
+TID_RARITY_TEXT_COLOR_3,<cF38200>
+TID_RARITY_TEXT_COLOR_4,<c10936E>
+,
+TID_RARITY_COLOR_1,D87F48
+TID_RARITY_COLOR_2,4E68A5
+TID_RARITY_COLOR_3,F38200
+TID_RARITY_COLOR_4,10936E
+,
+TID_RARITY_1,Level 1
+TID_RARITY_2,Level 2
+TID_RARITY_3,Level 3
+TID_RARITY_4,Level 4
+,
+TID_BOW_1,Fire Bow
+TID_BOW_2,Quick Bow
+TID_BOW_3,Strong Bow
+TID_SWORD_1,Heavy Sword
+TID_SWORD_2,Guarding Sword
+TID_SWORD_3,Rage Sword
+TID_BRACELET_1,Fire Robe
+TID_BRACELET_2,Explosive Robe
+TID_BRACELET_3,Armor Robe
+TID_LANCE_1,Twofold Lance
+TID_LANCE_2,Power Lance
+TID_LANCE_3,Shield Lance
+TID_DAGGER_1,Triple Dagger
+TID_DAGGER_2,Fury Dagger
+TID_DAGGER_3,Dodgy Dagger
+TID_GAUNTLET_1,Defensive Gauntlet
+TID_GAUNTLET_2,Power Gauntlet
+TID_GAUNTLET_3,Healing Gauntlet
+TID_PEKKASWORD_1,Lightning Blade
+TID_PEKKASWORD_2,Defensive Blade
+TID_PEKKASWORD_3,Dual Blade
+TID_BOMB_1,Ice Bomb
+TID_BOMB_2,Heavy Bomb
+TID_BOMB_3,Rage Bomb
+TID_MINIONGAUNTLET_1,Explosive Gloves
+TID_MINIONGAUNTLET_2,Dodgy Gloves
+TID_MINIONGAUNTLET_3,Strong Gloves
+TID_COLLAR_1,Scattering Collar
+TID_COLLAR_2,Fire Collar
+TID_COLLAR_3,Force Collar
+TID_AXE_1,Fast Axe
+TID_AXE_2,Parry Axe
+TID_AXE_3,Lightning Axe
+TID_BATTERY_1,Sparky Battery
+TID_BATTERY_2,Overcharged Battery
+TID_BATTERY_3,Shielding Battery
+TID_QUIVER_1,Large Quiver
+TID_QUIVER_2,Fine Quiver
+TID_QUIVER_3,Dark Quiver
+,
+TID_BOW_1_INFO,Sets target on fire <RARITY_COLOR>(<ATTRIBUTE_1>% damage per turn)</c>. The neighboring tiles can also catch the fire with 50% chance.
+TID_BOW_2_INFO,<RARITY_COLOR><CHANCE_1>% chance</c> for an extra shot <RARITY_COLOR>(+<ATTRIBUTE_1>% damage).</c>
+TID_BOW_3_INFO,Causes <RARITY_COLOR>+<ATTRIBUTE_1>% more damage</c>.
+TID_SWORD_1_INFO,<RARITY_COLOR><CHANCE_1>% chance</c> for a critical hit <RARITY_COLOR>(2x damage)</c>.
+TID_SWORD_2_INFO,<RARITY_COLOR>Blocks <ATTRIBUTE_1>%</c> of incoming damage.
+TID_SWORD_3_INFO,Causes <RARITY_COLOR>+<ATTRIBUTE_1>% more damage</c> when wounded.
+TID_BRACELET_1_INFO,Sets target on fire for 5 turns <RARITY_COLOR>(<ATTRIBUTE_1>% of full damage per turn).</c>
+TID_BRACELET_2_INFO,<RARITY_COLOR><CHANCE_1>% chance</c> of spawning two smaller fireballs <RARITY_COLOR>(<ATTRIBUTE_1>% of full damage)</c> to random targets.
+TID_BRACELET_3_INFO,<RARITY_COLOR>Blocks <ATTRIBUTE_1>%</c> of incoming damage.
+TID_LANCE_1_INFO,"After destroying a target, hits a second target behind it with <RARITY_COLOR><ATTRIBUTE_1>% of full damage</c>."
+TID_LANCE_2_INFO,Damages adjacent squares with <RARITY_COLOR><ATTRIBUTE_1>% damage</c>.
+TID_LANCE_3_INFO,<RARITY_COLOR>Blocks <ATTRIBUTE_1>%</c> of incoming damage.
+TID_DAGGER_1_INFO,<RARITY_COLOR><CHANCE_1>% chance</c> of striking three times instead of one <RARITY_COLOR>(3x damage)</c>.
+TID_DAGGER_2_INFO,"After destroying a target, gain a second attack with <RARITY_COLOR>+<ATTRIBUTE_1>% damage</c>."
+TID_DAGGER_3_INFO,<RARITY_COLOR><CHANCE_1>% chance</c> of dodging an enemy attack.
+TID_GAUNTLET_1_INFO,<RARITY_COLOR>Blocks <ATTRIBUTE_1>%</c> of incoming damage.
+TID_GAUNTLET_2_INFO,Damages adjacent squares with <RARITY_COLOR><ATTRIBUTE_1>% of full damage</c>.
+TID_GAUNTLET_3_INFO,Heals <RARITY_COLOR><ATTRIBUTE_1> health</c> per turn.
+TID_PEKKASWORD_1_INFO,"<RARITY_COLOR><CHANCE_1>% chance</c> of an electric attack that jumps to a nearby building, causing <RARITY_COLOR><ATTRIBUTE_1> points of damage</c>."
+TID_PEKKASWORD_2_INFO,"<RARITY_COLOR>Blocks <ATTRIBUTE_1>%</c> of incoming damage, with a <RARITY_COLOR><CHANCE_2>% chance</c> to shoot a zap <RARITY_COLOR>(<ATTRIBUTE_2> points of damage)</c> to a nearby enemy."
+TID_PEKKASWORD_3_INFO,<RARITY_COLOR><CHANCE_1>% chance</c> for a second strike with <RARITY_COLOR><ATTRIBUTE_1>% of full damage.</c>
+TID_BOMB_1_INFO,Inside the area target has <RARITY_COLOR><CHANCE_1>% chance </c> of becoming frozen for 2 turns.
+TID_BOMB_2_INFO,Deals <RARITY_COLOR><ATTRIBUTE_1>% more damage </c> to where the bomb hits.
+TID_BOMB_3_INFO,Gives surrounding units <RARITY_COLOR><ATTRIBUTE_1> more attack power </c> when activated.
+TID_MINIONGAUNTLET_1_INFO,Drops bombs that damage also 2 random neighboring tiles
+TID_MINIONGAUNTLET_2_INFO,Chance to dodge the attack
+TID_MINIONGAUNTLET_3_INFO,More powerful attack
+TID_COLLAR_1_INFO,Also damages adjacent columns with <RARITY_COLOR><ATTRIBUTE_1>% damage.</c>
+TID_COLLAR_2_INFO,Sets all targets on fire for 5 turns with <RARITY_COLOR><ATTRIBUTE_1>% of full damage per turn.</c>
+TID_COLLAR_3_INFO,Extra <RARITY_COLOR><ATTRIBUTE_1>% damage </c> for the first opponent.
+TID_AXE_1_INFO,Chance to do an extra spin
+TID_AXE_2_INFO,Damage reduction
+TID_AXE_3_INFO,"if attacked, chance for lightning strike"
+TID_BATTERY_1_INFO,chance for the zap to jump on additional building
+TID_BATTERY_2_INFO,small chance for causing super damage
+TID_BATTERY_3_INFO,damage reduction
+TID_QUIVER_1_INFO,Princess can shoot extra arrow
+TID_QUIVER_2_INFO,each shot does extra damage
+TID_QUIVER_3_INFO,"If damaged, chance to return back to the supply"
+TID_COMBO_MULTIPLIER,<number>x Combo
+TID_COMBO_PERCENTAGE,+<number>%
+TID_COMBO_DAMAGE,damage
+,
+TID_REWARD_TYPE_RESOURCE,Resource: <name>
+TID_REWARD_TYPE_CAP,1x <name>
+TID_REWARD_TYPE_CAP_MULTIPLE,<number>x <name>
+TID_REWARD_TYPE_CAP_TOTAL,Now <number> in total!
+TID_REWARD_TYPE_ELIXIR,Elixir
+TID_REWARD_TYPE_ITEM,Item: <name>
+TID_REWARD_TYPE_ITEM_UPGRADE,Item Upgrade: <name>
+TID_REWARD_TYPE_UNLOCK,Unlocked: <name>
+TID_REWARD_TYPE_LABEL_GOLD,<number> Gold
+TID_REWERD_TYPE_LABEL_QUEST_TOKENS,<number> Quest Tokens
+,
+TID_REWARD_TYPE_INFO_CAP,Grow your army with more units to use in battle!
+TID_REWARD_TYPE_INFO_ELIXIR,Elixir is used together with Gold to upgrade your units to make them stronger.
+TID_REWARD_TYPE_INFO_ITEM,Items give additional powers to you troops. Some powers require minimum group size to activate.
+TID_REWARD_TYPE_INFO_ITEM_UPGRADE,Items have different levels of power. You just found a more powerful version of this Item.
+TID_REWARD_TYPE_INFO_UNLOCK,You can now use this in Battle!
+,
+TID_INFO_GEMS,These precious Gems are used to buy things from the shop and to continue playing even if you're out of energy.
+TID_POPOVER_GEM,These precious <c3CB01D>Gems</c> are used to buy things from the shop and to continue playing even if you're out of energy.
+,
+TID_INFO_GOLD,Gold is used for upgrading troops and spells and shopping!
+TID_POPOVER_COINS,Spend <cF8A203>Gold</c> to upgrade your troops and spells.
+,
+TID_INFO_STARS,Total <cb78a62>Star Chests</c> you’ve collected.
+TID_INFO_PUZZLE_ENERGY,Quest Energy is used to play the battles in Quest.
+TID_INFO_ENERGY_SCROLL,Quest Tokens can be used to play battles in Quest when you’re out of energy.
+TID_INFO_CHALLENGE_TOKEN,League Tokens can be used to play battles in League.
+TID_POPVOER_ENERGY,Your current <c78b4cd>Quest Energy.</c> Use Energy to play the levels.
+TID_POPOVER_ENERGY_COUNTER,More Energy in:\n<time>
+TID_POPOVER_ENERGY_COUNTER_FULL,Your <c78b4cd>Energy</c> is maxed out! Go play some levels.
+TID_POPOVER_ENERGY_SCROLL_COUNT,You have <number> <c78b4cd>Quest Tokens.</c> Quest Tokens can be used to play levels when out of Energy.
+TID_POPOVER_STARS,Total amount of <c833939>Star Chests</c> you've gained so far.
+,
+TID_POPOVER_CHALLENGE,You get one Free Try per League Day.\n\nYou can use a <ce48810>League Token</c> to play if you're out of tries.
+,
+TID_RANDOM_LOOT,Looted from defenses
+TID_WIN_CHEST_1,Wooden Star Chest
+TID_WIN_CHEST_2,Silver Star Chest
+TID_WIN_CHEST_3,Golden Star Chest
+TID_WIN_CHEST_4,Wooden Star Chest (Level 2)
+TID_WIN_CHEST_5,Silver Star Chest (Level 2)
+TID_WIN_CHEST_6,Golden Star Chest (Level 2)
+TID_WIN_CHEST_7,Wooden Star Chest (Level 3)
+TID_WIN_CHEST_8,Silver Star Chest (Level 3)
+TID_WIN_CHEST_9,Golden Star Chest (Level 3)
+TID_WIN_CHEST_10,Wooden Star Chest (Level 4)
+TID_WIN_CHEST_11,Silver Star Chest (Level 4)
+TID_WIN_CHEST_12,Golden Star Chest (Level 4)
+TID_WIN_CHEST_CAP,Wooden Star Chest
+TID_WIN_CHEST_START_1,Wooden Star Chest
+TID_WIN_CHEST_START_2,Wooden Star Chest
+TID_WIN_CHALLENGE_CHEST_1,League Chest
+TID_WIN_CHEST_N,Island Tresure Chest
+TID_CHALLENGE_CHEST_1,Stage Reward (Level 1)
+TID_CHALLENGE_CHEST_2,Stage Reward (Level 2)
+TID_CHALLENGE_CHEST_3,Stage Reward (Level 3)
+TID_LEAGUE_CHEST_1,Season End Reward
+TID_LEAGUE_CHEST_2,Season End Reward
+TID_QUEST_CHEST_1,Quest Reward
+,
+TID_BUTTON_SEARCH,Search
+TID_CLAN_NAME,Clan name:
+TID_CLAN_DESCRIPTION,Clan description:
+,
+TID_BUILDING_CANNON,Cannon
+TID_BUILDING_GOLD_STORAGE,Gold Storage
+TID_BUILDING_WALL,Wall
+TID_BUILDING_XBOW,X-Bow
+TID_BUILDING_WIZARD_TOWER,Wizard Tower
+TID_BUILDING_ARCHER_TOWER,Archer Tower
+TID_BUILDING_MORTAR,Mortar
+TID_BUILDING_WAGON,Gold Wagon
+TID_BUILDING_BARREL,Barrel
+TID_BUILDING_TESLA,Tesla
+TID_BUILDING_INFERNO_TOWER,Inferno Tower
+TID_BUILDING_DRAFT_TACTICS,Tactic Storage
+TID_BUILDING_DRAFT_TROOPS,Barracks
+TID_BUILDING_DRAFT_SPELLS,Spell Storage
+TID_CARD_FIRE_SPIRIT,Fire Spirits
+,
+TID_TUTORIAL_NEXT_BATTLE_1,There seem to be more of these islands..
+TID_TUTORIAL_NEXT_BATTLE_2,I wonder what treasures they hold..
+TID_TUTORIAL_NEXT_BATTLE_3,"We’ll see, but first we must find our friends."
+TID_TUTORIAL_NEXT_BATTLE_4,Let’s explore the first one. Tap the island.
+TID_TUTORIAL_NEXT_BATTLE_5,Tap the level.
+TID_TUTORIAL_NEXT_BATTLE_6,Tap the Attack button!
+,
+TID_TUTORIAL_INTRO_1,"Ugh, my robe's all wet. I hate water.. And swimming."
+TID_TUTORIAL_INTRO_2,Care to try with armor?\nI hope this doesn’t leave a stain…
+TID_TUTORIAL_INTRO_3,And how can Barbarian run underwater?!
+TID_TUTORIAL_INTRO_4,"Guys, how about we focus on those Cannons?"
+,
+TID_TUTORIAL_TAP_BARBARIAN_1,WAAAGH!
+TID_TUTORIAL_TAP_BARBARIAN_2,Looks like he’s ready to go!\nTap Barbarian to attack!
+,
+TID_TUTORIAL_TAP_ARCHER_1,Nice!\nHe damaged the Cannon.
+TID_TUTORIAL_TAP_ARCHER_2,Let me show what our group can do.
+TID_TUTORIAL_TAP_ARCHER_3,Tap us for a combo attack!
+,
+TID_TUTORIAL_TAP_WIZARD_1,"The bigger the group, bigger the combo bonus."
+TID_TUTORIAL_TAP_WIZARD_2,Let us show you a magic trick..
+TID_TUTORIAL_TAP_WIZARD_3,Tap us to to make the Cannons disappear.. with fire!
+,
+TID_TUTORIAL_ENEMY_ATTACKS_1,Watch out! Those Cannons look like they’re about to fire!
+TID_TUTORIAL_ENEMY_ATTACKS_2,Numbers next to enemies count down to their next attack.
+TID_TUTORIAL_ENEMY_ATTACKS_3,These Cannons will shoot at us after our turn!
+,
+TID_TUTORIAL_REWARD_SCREEN_1,Great work!\nTo the victor go the spoils!
+TID_TUTORIAL_REWARD_SCREEN_2,(Who’s Victor?)
+TID_TUTORIAL_REWARD_SCREEN_3,"This is what we.. ehm, acquired, from the level."
+,
+TID_TUTORIAL_EXPLAIN_SUMMARY_1,Here’s a summary of everything we gained.
+TID_TUTORIAL_EXPLAIN_SUMMARY_2,"If you’re unsure what something is, just tap it!"
+,
+TID_TUTORIAL_ALL_RESERVES_EMPTY_1,Our reserves are empty!
+TID_TUTORIAL_ALL_RESERVES_EMPTY_2,No more units will come into play.
+TID_TUTORIAL_ALL_RESERVES_EMPTY_3,We’ll lose if we run out of units.
+,
+TID_TUTORIAL_SPELLS_1,Hey! Looks like we can use my favorite Spell!
+TID_TUTORIAL_SPELLS_2,Tap on the Spell button.
+TID_TUTORIAL_SPELLS_3,Use the spell by tapping on the highlighted board.
+TID_TUTORIAL_SPELLS_4,Great! I love the fireworks!
+TID_TUTORIAL_SPELLS_5,Spells can only be used a limited number of times per battle.
+TID_TUTORIAL_SPELLS_6,Go get em!
+,
+TID_TUTORIAL_UPGRADE_CARD_1,Looks like we have enough Gold and Elixir for an upgrade!
+TID_TUTORIAL_UPGRADE_CARD_2,"First, tap the Squad tab."
+TID_TUTORIAL_UPGRADE_CARD_3,"On this page you can see all your Troops, Spells and Tactics."
+TID_TUTORIAL_UPGRADE_CARD_4,Tap the unit you can upgrade.
+TID_TUTORIAL_UPGRADE_CARD_5,"Here you can see the unit's stats, items and what it costs to upgrade."
+TID_TUTORIAL_UPGRADE_CARD_6,Tap on the Upgrade button.
+TID_TUTORIAL_UPGRADE_CARD_7,Upgrading units makes them stronger.
+TID_TUTORIAL_UPGRADE_CARD_8,"With stronger units, we’re able to win harder battles."
+TID_TUTORIAL_UPGRADE_CARD_9,"Also earlier battles will become easier, if you'd wish to replay them."
+,
+TID_TUTORIAL_HOLD_1,Hey! Just a quick note.
+TID_TUTORIAL_HOLD_2,Press and hold on a unit to preview its attack
+TID_TUTORIAL_HOLD_3,This works on enemies too! Good luck!
+,
+TID_TUTORIAL_REMINDER_HOLD_1,Quick reminder about previewing.
+TID_TUTORIAL_REMINDER_HOLD_2,Press and hold on a unit to preview its attack
+TID_TUTORIAL_REMINDER_HOLD_3,All the cool people use preview!
+,
+TID_TUTORIAL_NODE_REWARD_1,Looks like this chest unlocks when we beat all stages of an island!
+TID_TUTORIAL_NODE_REWARD_2,Tap on the Chest to reveal the rewards inside!
+,
+TID_TUTORIAL_INTRODUCE_TROOPS_1,Salutations!\nWe haven’t been properly introduced yet!
+TID_TUTORIAL_INTRODUCE_TROOPS_2,"You can address me by my royal title, Prince."
+TID_TUTORIAL_INTRODUCE_TROOPS_3,These are my subjects…
+TID_TUTORIAL_INTRODUCE_TROOPS_4,HEY!\nGet off your high horse!
+TID_TUTORIAL_INTRODUCE_TROOPS_5,"While adventuring, we’re all equal!"
+TID_TUTORIAL_INTRODUCE_TROOPS_6,"Yes, yes, sure. Anyway.."
+TID_TUTORIAL_INTRODUCE_TROOPS_7,First we have the Barbarian…
+TID_TUTORIAL_INTRODUCE_TROOPS_8,"Simple enough, he’ll run to the nearest enemy and hit them."
+TID_TUTORIAL_INTRODUCE_TROOPS_9,"Then there’s me, the Prince. In my shining armor of course."
+TID_TUTORIAL_INTRODUCE_TROOPS_10,"I do more damage, but this stubborn horse only goes forward!"
+TID_TUTORIAL_INTRODUCE_TROOPS_11,(You never ask me to turn.. And what did she mean by “high horse”?)
+TID_TUTORIAL_INTRODUCE_TROOPS_12,Did you hear something?\n\nMoving on..
+TID_TUTORIAL_INTRODUCE_TROOPS_13,"On the ranged side, here’s the Archer."
+TID_TUTORIAL_INTRODUCE_TROOPS_14,She’ll shoot over walls at the nearest enemies. Never misses.
+TID_TUTORIAL_INTRODUCE_TROOPS_15,"And finally, the fiery Wizard!"
+TID_TUTORIAL_INTRODUCE_TROOPS_16,"His fireballs do a little less damage each, but to a much larger area!"
+TID_TUTORIAL_INTRODUCE_TROOPS_17,Each troop is different. It’s up to you to use them efficiently.
+TID_TUTORIAL_INTRODUCE_TROOPS_18,Good Luck! Ta ta!
+TID_TUTORIAL_INTRODUCE_TROOPS_19,(You’re gonna need luck with this bunch.. )
+,
+TID_TUTORIAL_NEXT_LEVEL_UNLOCKED_1,Later stages are much more challenging…
+TID_TUTORIAL_NEXT_LEVEL_UNLOCKED_2,But you only need to beat the first stage to unlock the next level!
+TID_TUTORIAL_NEXT_LEVEL_UNLOCKED_3,Sometimes it’s better to move on than to get stuck.
+,
+TID_TUTORIAL_ITEM_ACTIVATION_1,Looks like you’ve found an item for your troops!
+TID_TUTORIAL_ITEM_ACTIVATION_2,Items add special powers to your troops’ attacks.
+TID_TUTORIAL_ITEM_ACTIVATION_3,Most powers only activate when the group is big enough.
+TID_TUTORIAL_ITEM_ACTIVATION_4,These icons show if the item power can activate.
+,
+TID_TUTORIAL_ONLY_SPELL_LEFT_1,"Looks like you're out of troops, but still have a spell left."
+TID_TUTORIAL_ONLY_SPELL_LEFT_2,"Take out an enemy if you can, as you might get loot from it."
+,
+TID_TUTORIAL_GOBLIN_KING_1,Salutations!\nMight I inquire who you are?
+TID_TUTORIAL_GOBLIN_KING_2,The true\nGoblin King!\nExiled by my usurper brother!
+TID_TUTORIAL_GOBLIN_KING_3,Joke’s on him though!\nHe's still pestering villages on the continent..
+TID_TUTORIAL_GOBLIN_KING_4,..while I enjoy the bounty of these islands.\nNow fetch me lunch!
+TID_TUTORIAL_GOBLIN_KING_5,Lunch? You're asking us to get you lunch?\nHow about you eat lance!
+TID_TUTORIAL_GOBLIN_KING_6,(Oh boy.. here we go again!)
+,
+TID_TUTORIAL_GOBLIN_KING_2_1,Geez.. another brother?
+TID_TUTORIAL_GOBLIN_KING_2_2,Hah! No!\nIt takes more than that to defeat me!
+TID_TUTORIAL_GOBLIN_KING_2_3,Special Elixir of these Islands makes me powerful and—
+TID_TUTORIAL_GOBLIN_KING_2_4,Whatever! Let’s fight!
+,
+TID_TUTORIAL_WASTED_FIREBALL_1,Hey! I noticed that you haven’t used the Fireball spell to it’s full potential.
+TID_TUTORIAL_WASTED_FIREBALL_2,It’s often a good idea to use it early and on clumps of enemies!
+,
+TID_TUTORIAL_CHALLENGE_MODE_1,Welcome to the League!\nTest your mettle in an endless battle!
+TID_TUTORIAL_CHALLENGE_MODE_2,Each Stage you clear rewards you with a Trophy and a Chest.
+TID_TUTORIAL_CHALLENGE_MODE_3,You fight on until you run out of Troops and Spells.
+TID_TUTORIAL_CHALLENGE_MODE_4,There’s also Special Buildings! Destroy these to fill your reserves.
+TID_TUTORIAL_CHALLENGE_MODE_5,Get the trophies and rise to the glorious top!
+,
+TID_TUTORIAL_LAVA_GOLEM_1_1,That thing is huge! The arms look like they might come off.
+TID_TUTORIAL_LAVA_GOLEM_1_2,"If we want to take it down, we need to focus on the body."
+,
+TID_TUTORIAL_LAVA_GOLEM_2_1,There’s that hunk of lava rock again.
+TID_TUTORIAL_LAVA_GOLEM_2_2,It won’t escape this time!
+,
+TID_TUTORIAL_PAPA_DRAGON_1_1,Hey! Get down here and taste my lance!
+TID_TUTORIAL_PAPA_DRAGON_1_2,(What’s with him and the lance eating?)
+TID_TUTORIAL_PAPA_DRAGON_1_3,"You better wait for it to land before you go charging in, Prince."
+,
+TID_TUTORIAL_PAPA_DRAGON_2_1,"Hmm... Don’t Baby Dragons grow up to be, you know, Dragons?"
+TID_TUTORIAL_PAPA_DRAGON_2_2,"Actually, I think it’s cute! It’s almost a shame to defeat it. Almost."
+,
+TID_BACK_BUTTON_PRESSED_DURING_TUTORIAL,Please follow the tutorial!
+,
+TID_NOTIFICIATION_ONE_ENERGY_RESTORED,Energy available again!
+TID_NOTIFICATION_PUZZLE_ENERGY_RESTORED_ALL,Your Energy is full! Time to battle!
+TID_NOTIFICATION_ENDLESS_MODE_SEASON_CHANGE,New League Season is starting
+TID_NOTIFICATION_ENDLESS_MODE_DAY_CHANGE,New League Day has started
+TID_NOTIFICATION_ENDLESS_MODE_DAY_NOT_YET_PLAYED,Last chance to play League today!
+TID_NOTIFICATION_NEW_QUEST_AVAILABLE,New quest is available!
+TID_NOTIFICATION_NEW_DEALS_IN_SHOP,New deals available in shop!
+TID_NOTIFICATION_COME_BACK_SMALL,Your troops want to attack.
+TID_NOTIFICATION_COME_BACK_MEDIUM,Your troops want to attack.
+TID_NOTIFICATION_COME_BACK_LARGE,Your troops want to attack.
+,
+TID_QUEST_COMPLETED,Side Quest completed!
+TID_QUEST_EXPIRED,Side Quest expired
+,
+TID_ENERGY_SCROLL,Quest Tokens
+TID_CHALLENGE_TOKEN,League Tokens
+,
+TID_ENDLESS_TRIES_LEFT,<NUM> Free Tries!
+TID_ENDLESS_TRIES_LEFT_SINGULAR,Free Try!
+TID_ENDLESS_BEST_SCORE_FOR_TODAY,Best score:
+TID_ENDLESS_DAY_TIME_LEFT,<TIME>
+TID_ENDLESS_DAY_TIME_LEFT_GAME,<TIME>
+TID_ENDLESS_SEASON_TIME_LEFT,<cF3F2C8>Season ends in</c> <TIME>
+TID_ENDLESS_SEASON_DAY,<cF3F2C8>Day</c> <DAY>
+TID_ENDLESS_MODE_UNLOCKED_AT,Unlock by collecting\n<cf3f2c8><STARS> Star Chests</c>
+TID_CHALLENGE_STAY,Staying on current League level
+TID_CHALLENGE_MOVE_UP,Moving up to next League level
+TID_CHALLENGE_MOVE_DOWN,Moving down to previous League level
+TID_CHALLENGE_LEGEND,Total of daily high scores
+TID_CHALLENGE_SEASON_OVER,Season over
+,
+TID_LEAGUE_LEGENDARY_1,Legendary I
+TID_LEAGUE_LEGENDARY_2,Legendary II
+TID_LEAGUE_LEGENDARY_3,Legendary III
+TID_LEAGUE_PLATINUM_1,Platinum I
+TID_LEAGUE_PLATINUM_2,Platinum II
+TID_LEAGUE_PLATINUM_3,Platinum III
+TID_LEAGUE_GOLD_1,Gold I
+TID_LEAGUE_GOLD_2,Gold II
+TID_LEAGUE_GOLD_3,Gold III
+TID_LEAGUE_SILVER_1,Silver I
+TID_LEAGUE_SILVER_2,Silver II
+TID_LEAGUE_SILVER_3,Silver III
+TID_LEAGUE_BRONZE_1,Bronze I
+TID_LEAGUE_BRONZE_2,Bronze II
+TID_LEAGUE_BRONZE_3,Bronze III
+TID_LEAGUE_BRONZE_4,Bronze IV
+TID_LEAGUE_BRONZE_5,Bronze V
+TID_LEAGUE_BRONZE_6,Bronze VI
+TID_LEAGUE_BRONZE_7,Bronze VII
+TID_LEAGUE_BRONZE_8,Bronze VIII
+TID_LEAGUE_BRONZE_9,Bronze IX
+TID_LEAGUE_BRONZE_10,Bronze X
+TID_LEAGUE_BRONZE_11,Bronze XI
+TID_LEAGUE_BRONZE_12,Bronze XII
+TID_LEAGUE_BRONZE_13,Bronze XIII
+TID_LEAGUE_BRONZE_14,Bronze XIV
+TID_LEAGUE_BRONZE_15,Bronze XV
+TID_LEAGUE_BRONZE_16,Bronze XVI
+,
+TID_FORCE_ONLINE,Go Online to continue playing!
+,
+TID_BUILDING_FURNACE,Furnace
+,
+TID_QQ_LOGIN_BUTTON,QQ Login
+TID_QQ_LOGGED_IN,Logged in to QQ
+TID_WECHAT_LOGIN_BUTTON,WeChat Login
+TID_WECHAT_NOT_INSTALLED,You haven't installed WeChat yet
+TID_WECHAT_LOGGED_IN,Logged in to WeChat
+TID_WECHAT_LOGOUT_BUTTON,Log out
+TID_GUEST_LOGIN_BUTTON,Guest Login
+TID_TAP_UNITS_TO_ATTACK,Tap units to attack!
+TID_COLLECTION_LOCKED_CARDS_HEADER,To be found:
+TID_CARD_FOUND_AFTER_COMPLETING_MAP_NODE,Found after completing <NAME>
+TID_CARD_FOUND_IN_REGION_1,Found somewhere in <NAME> area.
+TID_CARD_FOUND_IN_REGION_2,Rumored to be somewhere in <NAME>.
+TID_CARD_FOUND_IN_REGION_3,Somewhere in <NAME>.. possibly?
+TID_CARD_FOUND_IN_REGION_4,Last seen in <NAME>.
+,
+TID_POPUP_SKIP_TUTORIAL_TITLE,Skip tutorial?
+TID_POPUP_SKIP_TUTORIAL_TEXT,Are you sure you want to skip this part of the tutorial?\n\nYou will not see this part again.
+TID_POPUP_SKIP_TUTORIAL_POSITIVE,Skip
+,
+TID_PLAYER_STAT_CURRENT_SEASON,Current season:
+TID_PLAYER_STAT_SEASON_RANK,<RANK>. in <SEASON_NAME>
+TID_PLAYER_STAT_SEASON_NOT_PLAYED,Not played
+TID_PLAYER_STAT_PREVIOUS_SEASON,Previous season:
+TID_PLAYER_STAT_BEST_SEASON,Best season:
+TID_CHALLENGE_SEASON_SCORE_EXPLANATION,Season Score: the total of daily high scores (the highest Stages beaten and the number of defenses destroyed on the last Stages).
+TID_CHALLENGE_SCORE_EXPLANATION,High Score of the Day: the highest Stage beaten and the number of defenses destroyed on the last Stage.
+TID_CHALLENGE_REFILL_EXPLANATION,These units are only available as refills from draft buildings and between Stages.
+TID_PLAYER_STAT_DAILY_SCORES,Daily high scores:
+TID_PLAYER_STAT_BEST_DAILY,Best daily score:
+TID_PLAYER_STAT_TOTAL_STAGES,Total stages defeated:
+TID_PLAYER_STAT_DAY,Day
+TID_YOU,You
+TID_POPUP_SURVEY_TITLE,Help Make Clash Quest Better!
+TID_POPUP_SURVEY_TEXT,Want to take part in a survey? Answer all the questions and finish the survey and you'll receive <REWARD_GEMS> gems.
+TID_POPUP_SURVEY_ACCEPT_BUTTON,Take survey
+TID_POPUP_SURVEY_DECLINE_BUTTON,Decline
+TID_SURVEY_COMPLETED,Thanks for taking the survey!
+TID_SURVEY_TITLE,Clash Quest Survey
+,
+TID_TENCENT_LOGIN_AGREEMENT_POPUP_TITLE,Important notice
+TID_TENCENT_LOGIN_AGREEMENT_POPUP,"Before using Tencent services, please carefully read <TOS>Tencent Game License and Service Agreement</TOS>, <PP>Tencent Game Privacy Protection Guidelines</PP> and <CHILDREN>Tencent Game Children Privacy Protection Guidelines</CHILDREN> and ensure that you fully understand the items and our processing rules. Meanwhile, please pay attention to items in these agreements that exempt or limit our liability, items that limit your right, appointed solution of dispute and jurisdiction clauses. Please press \qAgree\q if you have carefully read and agree with <TOS>, <PP> and <CHILDREN>."
+TID_TENCENT_LOGIN_AGREEMENT_POPUP_AGREE,Agree
+TID_TENCENT_LOGIN_AGREEMENT_POPUP_REFUSE,Refuse
+TID_TENCENT_LOGIN_AGREEMENT_POPUP_2,"Please note that you need to carefully read and agree with\n<TOS>Tencent Game License and Service Agreement</TOS>,\n<PP>Tencent Game Privacy Protection Guidelines</PP> and\n<CHILDREN>Tencent Game Children Privacy Protection Guidelines</CHILDREN>\nbefore accessing the game."
+TID_TENCENT_LOGIN_AGREEMENT_POPUP_BACK,Back
+TID_TENCENT_LOGIN_AGREEMENT_POPUP_NO,No
+TID_TERMS_OF_SERVICE_BUTTON_TENCENT,Tencent Game License and Service Agreement
+TID_PRIVACY_POLICY_BUTTON_TENCENT,Tencent Game Privacy Protection Guidelines
+TID_PARENTS_GUIDE_BUTTON_TENCENT,Tencent Game Children Privacy Protection Guidelines
+TID_TENCENT_LOGIN_AGREEMENTS,"I have carefully read and agree with <TOS>Tencent Game License and Service Agreement</TOS>, <PP>Tencent Game Privacy Protection Guidelines</PP> and <CHILDREN>Tencent Game Children Privacy Protection Guidelines</CHILDREN>."
+TID_TENCENT_LOGIN_AGREEMENT_NOTE,"You need to carefully read and agree with\n<TOS>Tencent Game License and Service Agreement</TOS>,\n<PP>Tencent Game Privacy Protection Guidelines</PP> and\n<CHILDREN>Tencent Game Children Privacy Protection Guidelines</CHILDREN>\nbefore accessing the game."
+TID_TENCENT_GUEST_LOGIN_WARNING_TITLE,Log in as guest?
+TID_TENCENT_GUEST_LOGIN_WARNING,"In accordance with the latest anti-addiction rules, you will be unable to complete real-name verification when logged in with a Guest account, and your playtime is restricted to 1 hour every 15 days. To ensure the very best gaming experience, we highly recommend logging in with either QQ or WeChat and completing your real-name verification."
+,
+TID_CLAIM_REWARD,Claim reward
+TID_SEASON_END_TITLE,League Season Ended
+TID_SEASON_END_TEXT_UP,You moved up to the <cffc620><league></c>!\nCongratulations!
+TID_SEASON_END_TEXT_SAME,You stayed on the <cffc620><league></c>.\nGood work!
+TID_SEASON_END_TEXT_DOWN,You moved down to the <cffc620><league></c>.
+,
+TID_ACCOUNT_LOCKED_TITLE,Account Locked
+TID_ACCOUNT_LOCKED_TEXT,Your account has been locked for security reasons. Enter the unlock code to recover your account.
+TID_ACCOUNT_LOCKED_TEXT2,Enter unlock code here:
+TID_ACCOUNT_LOCKED_INVALID_CODE,Invalid unlock code!

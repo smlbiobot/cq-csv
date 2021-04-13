@@ -1,0 +1,12 @@
+Name,PartName,PositionX,PositionY,PartID,InitiallyVisible,AnimationMaster,HideBone,HideGeoList,IntroSequence,TID,IconExportName,IconSWF,DeathSequence
+string,string,int,int,int,boolean,boolean,string,string,string,string,string,string,string
+LavaGolem,LavaGolemBody,1,1,1,TRUE,TRUE,,,LavaGolemIntro,TID_BOSS_NAME_LAVAGOLEM,icon_boss_lavagolem,sc/ui.sc,
+,LavaGolemHandLeft,3,3,2,TRUE,FALSE,,L_armGeo,,,,,
+,LavaGolemHandRight,0,3,3,TRUE,FALSE,,R_armGeo,,,,,
+LavaGolemEscape,LavaGolemBodyWeak,1,1,1,TRUE,TRUE,,,LavaGolemIntroWeak,TID_BOSS_NAME_LAVAGOLEM,icon_boss_lavagolem,sc/ui.sc,
+,LavaGolemHandLeftWeak,3,3,2,TRUE,FALSE,,L_armGeo,,,,,
+,LavaGolemHandRightWeak,0,3,3,TRUE,FALSE,,R_armGeo,,,,,
+PapaDragon,PapaDragonAir,0,0,1,TRUE,TRUE,,,PapaDragonIntro,TID_BOSS_NAME_PAPADRAGON,icon_boss_papadragon,sc/ui.sc,
+PapaDragonEscape,PapaDragonAirWeak,0,0,1,TRUE,TRUE,,,PapaDragonIntroWeak,TID_BOSS_NAME_PAPADRAGON,icon_boss_papadragon,sc/ui.sc,
+Goblin2,GoblinBody,1,2,1,TRUE,TRUE,,,Goblin2Intro,TID_BOSS_NAME_GOBLIN,icon_boss_goblinking,sc/ui.sc,
+Goblin,GoblinBodyWeak,1,2,1,TRUE,TRUE,,,GoblinIntro,TID_BOSS_NAME_GOBLIN,icon_boss_goblinking,sc/ui.sc,

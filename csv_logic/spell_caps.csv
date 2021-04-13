@@ -1,0 +1,10 @@
+name,StartCount,CapCountW4,CapCountW3,CapCountW2,CapCountW1,DropEffect,TID,Disabled
+string,int,int,int,int,int,String,String,boolean
+FireballCap,1,,,1,,GainCrate,TID_CARD_FIREBALL,
+ZapCap,2,,1,,1,GainCrate,TID_CARD_ZAP,
+RetreatCap,3,,1,1,1,GainCrate,TID_CARD_RETREAT,
+StepCap,2,,1,1,1,GainCrate,TID_CARD_STEP,
+ChargeCap,1,,1,,1,GainCrate,TID_CARD_CHARGE,
+LogCap,2,,,1,,GainCrate,TID_CARD_LOG,
+RocketCap,2,,1,,1,GainCrate,TID_CARD_ROCKET,
+RushCap,2,,1,,1,GainCrate,TID_CARD_RUSH,
